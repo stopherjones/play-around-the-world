@@ -1,0 +1,321 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 1.5rem;
+    background: #fafafa;
+    color: #222;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* When the stats display is placed between the H1 and subtitle,
+   center it and give a small separation from the title/subtitle. */
+.main-title + .stat-display {
+    display: block;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: 500;
+    padding: 0.15rem 0;
+}
+
+.top-link {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.top-link:hover {
+    text-decoration: underline;
+}
+
+/* ----------------- NAV BAR ----------------- */
+
+.filter-bar {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    background: #f3f3f3;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    /* Sticky behaviour */
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.filter-group label {
+    font-size: 0.8rem;
+    color: #444;
+}
+
+.filter-bar select,
+.filter-bar input {
+    padding: 0.45rem 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+    min-width: 150px;
+}
+
+#searchInput {
+    min-width: 220px;
+    flex: 0 1 auto;
+}
+
+.filter-group:has(#searchInput) {
+    margin-left: 0;
+    flex: 0 1 auto;
+}
+
+.filter-group:has(#continentFilter) {
+    margin-left: auto;
+    flex: 0 0 auto;
+}
+
+.stat-display {
+    flex: 1;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: 500;
+    align-self: flex-start;
+    padding-top: 0.25rem;
+}
+
+@media (max-width: 600px) {
+    .filter-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+/* ----------------- GALLERY ----------------- */
+
+.gallery {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+/* When the gallery contains section blocks (heading + nested grids)
+   prevent the outer container from acting as a grid so sections stack vertically. */
+.gallery.sectioned {
+    display: block;
+}
+
+.gallery-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 160px));
+    justify-content: center;
+}
+
+.section-title {
+    font-size: 1.05rem;
+    margin: 0.75rem 0 0.5rem;
+    color: #333;
+    font-weight: 600;
+    padding-left: 1.5rem;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flag-wrapper {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #ddd;
+    border-radius: 8px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.caption {
+    margin-top: 0.4rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* ----------------- POPUP ----------------- */
+
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.popup-overlay.active {
+    display: flex;
+}
+
+.popup-box {
+    background: #fff;
+    padding: 1.5rem;
+    max-width: 320px;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+
+.popup-box h2 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.popup-box ul {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.close-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #eee;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* ----------------- BOOKS PAGE (moved from books.html) ----------------- */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.back-link {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    z-index: 60;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.books-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.book-item {
+    display: flex;
+    gap: 1.5rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+}
+
+.flag-thumbnail {
+    width: 80px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ddd;
+}
+
+.flag-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-details {
+    flex: 1;
+}
+
+.country-name {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.book-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #222;
+}
+
+.book-author {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    .book-item {
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .flag-thumbnail {
+        width: 70px;
+        height: 52px;
+    }
+
+    .book-title {
+        font-size: 1rem;
+    }
+}
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Around the World - List of Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html" class="back-link">Back to Gallery</a>
+    <h1 class="main-title">Books I've Read</h1>
+
+    <div class="stat-display">
+        <span id="statText">0 books read in 0 of 0 countries</span>
+    </div>
+
+    <p class="subtitle">A complete list of books organized by country of origin</p>
+
+    <!-- Sticky Nav Bar -->
+    <nav class="filter-bar">
+
+        <div class="filter-group">
+            <label for="searchInput">Search</label>
+            <input type="text" id="searchInput" placeholder="Find a country...">
+        </div>
+
+        
+
+        <div class="filter-group">
+            <label for="continentFilter">Continent</label>
+            <select id="continentFilter">
+                <option value="all">All</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div id="booksList" class="books-list"></div>
+    </div>
+
+    <script>
+        let countriesData = [];
+
+        fetch("countries.json")
+            .then(res => res.json())
+            .then(data => {
+                countriesData = data;
+                renderBooks();
+                updateStats(data);
+            });
+
+        function updateStats(data) {
+            // Count total books and read countries
+            const totalBooks = data.reduce((sum, c) => sum + (c.books ? c.books.length : 0), 0);
+            const readCountries = data.filter(c => c.read).length;
+            const totalCountries = data.filter(c => c.type === 'country').length;
+            
+            const statText = document.getElementById("statText");
+            if (statText) {
+                statText.textContent = `${totalBooks} books read in ${readCountries} of ${totalCountries} countries`;
+            }
+        }
+
+        // Attach filter listeners so the nav controls update the list
+        const searchEl = document.getElementById('searchInput');
+        const continentEl = document.getElementById('continentFilter');
+        if (searchEl) searchEl.addEventListener('input', renderBooks);
+        if (continentEl) continentEl.addEventListener('change', renderBooks);
+
+        function renderBooks() {
+            const booksList = document.getElementById("booksList");
+            booksList.innerHTML = "";
+
+            // Apply search + continent filters to read countries/territories with books
+            const search = (document.getElementById('searchInput') && document.getElementById('searchInput').value) ? document.getElementById('searchInput').value.toLowerCase() : '';
+            const continent = (document.getElementById('continentFilter') && document.getElementById('continentFilter').value) ? document.getElementById('continentFilter').value : 'all';
+
+            const readItems = countriesData.filter(c =>
+                c.read && c.books && c.books.length > 0 &&
+                (search === '' || c.name.toLowerCase().includes(search)) &&
+                (continent === 'all' || c.continent === continent)
+            );
+
+            if (readItems.length === 0) {
+                booksList.innerHTML = '<div class="empty-state">No books recorded yet.</div>';
+                return;
+            }
+
+            const countries = readItems.filter(c => c.type === 'country');
+            const territories = readItems.filter(c => c.type === 'territory');
+
+            function renderSection(title, items) {
+                if (!items || items.length === 0) return;
+                const heading = document.createElement('div');
+                heading.classList.add('section-title');
+                heading.textContent = title;
+                booksList.appendChild(heading);
+
+                items.forEach(country => {
+                    country.books.forEach(book => {
+                        const item = document.createElement("div");
+                        item.classList.add("book-item");
+
+                        // Flag thumbnail
+                        const flagDiv = document.createElement("div");
+                        flagDiv.classList.add("flag-thumbnail");
+
+                        const img = document.createElement("img");
+                        if (country.code.includes("/") || country.code.startsWith("http")) {
+                            img.src = country.code;
+                        } else {
+                            img.src = `https://flagcdn.com/w640/${country.code}.png`;
+                        }
+                        img.alt = `Flag of ${country.name}`;
+                        flagDiv.appendChild(img);
+
+                        // Book details
+                        const details = document.createElement("div");
+                        details.classList.add("book-details");
+
+                        const countryName = document.createElement("div");
+                        countryName.classList.add("country-name");
+                        countryName.textContent = country.name;
+                        details.appendChild(countryName);
+
+                        const title = document.createElement("div");
+                        title.classList.add("book-title");
+                        title.textContent = book.title;
+                        details.appendChild(title);
+
+                        const author = document.createElement("div");
+                        author.classList.add("book-author");
+                        author.textContent = `by ${book.author}`;
+                        details.appendChild(author);
+
+                        item.appendChild(flagDiv);
+                        item.appendChild(details);
+                        booksList.appendChild(item);
+                    });
+                });
+            }
+
+            renderSection('Countries', countries);
+            renderSection('Other regions and territories', territories);
+            updateStats(countriesData);
+        }
+    </script>
+</body>
+</html>
