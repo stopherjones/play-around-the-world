@@ -1,49 +1,49 @@
 [
   {
     "name": "Afghanistan",
-    "code": "af",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "af",
     "read": false,
     "games": []
   },
   {
     "name": "Albania",
-    "code": "al",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "al",
     "read": false,
     "games": []
   },
   {
     "name": "Algeria",
-    "code": "dz",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "dz",
     "read": false,
     "games": []
   },
   {
     "name": "Andorra",
-    "code": "ad",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "ad",
     "read": false,
     "games": []
   },
   {
     "name": "Angola",
-    "code": "ao",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ao",
     "read": false,
     "games": []
   },
   {
     "name": "Antigua and Barbuda",
-    "code": "ag",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "ag",
     "read": true,
     "games": [
       {
@@ -53,9 +53,9 @@
   },
   {
     "name": "Argentina",
-    "code": "ar",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "ar",
     "read": true,
     "games": [
       {
@@ -65,17 +65,17 @@
   },
   {
     "name": "Armenia",
-    "code": "am",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "am",
     "read": false,
     "games": []
   },
   {
     "name": "Australia",
-    "code": "au",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "au",
     "read": true,
     "games": [
       {
@@ -94,9 +94,9 @@
   },
   {
     "name": "Austria",
-    "code": "at",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "at",
     "read": true,
     "games": [
       {
@@ -105,18 +105,10 @@
     ]
   },
   {
-    "name": "Azerbaijan",
-    "code": "az",
-    "type": "country",
-    "continent": "Asia",
-    "read": false,
-    "games": []
-  },
-  {
     "name": "Bahamas",
-    "code": "bs",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "bs",
     "read": true,
     "games": [
       {
@@ -126,25 +118,25 @@
   },
   {
     "name": "Bahrain",
-    "code": "bh",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "bh",
     "read": false,
     "games": []
   },
   {
     "name": "Bangladesh",
-    "code": "bd",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "bd",
     "read": false,
     "games": []
   },
   {
     "name": "Barbados",
-    "code": "bb",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "bb",
     "read": true,
     "games": [
       {
@@ -154,17 +146,17 @@
   },
   {
     "name": "Belarus",
-    "code": "by",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "by",
     "read": false,
     "games": []
   },
   {
     "name": "Belgium",
-    "code": "be",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "be",
     "read": true,
     "games": [
       {
@@ -174,33 +166,33 @@
   },
   {
     "name": "Belize",
-    "code": "bz",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "bz",
     "read": false,
     "games": []
   },
   {
     "name": "Benin",
-    "code": "bj",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "bj",
     "read": false,
     "games": []
   },
   {
     "name": "Bhutan",
-    "code": "bt",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "bt",
     "read": false,
     "games": []
   },
   {
     "name": "Bolivia",
-    "code": "bo",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "bo",
     "read": true,
     "games": [
       {
@@ -213,17 +205,17 @@
   },
   {
     "name": "Bosnia and Herzegovina",
-    "code": "ba",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "ba",
     "read": false,
     "games": []
   },
   {
     "name": "Botswana",
-    "code": "bw",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "bw",
     "read": true,
     "games": [
       {
@@ -233,9 +225,9 @@
   },
   {
     "name": "Brazil",
-    "code": "br",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "br",
     "read": true,
     "games": [
       {
@@ -248,17 +240,17 @@
   },
   {
     "name": "Brunei",
-    "code": "bn",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "bn",
     "read": false,
     "games": []
   },
   {
     "name": "Bulgaria",
-    "code": "bg",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "bg",
     "read": true,
     "games": [
       {
@@ -268,33 +260,33 @@
   },
   {
     "name": "Burkina Faso",
-    "code": "bf",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "bf",
     "read": false,
     "games": []
   },
   {
     "name": "Burundi",
-    "code": "bi",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "bi",
     "read": false,
     "games": []
   },
   {
     "name": "Cabo Verde",
-    "code": "cv",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "cv",
     "read": false,
     "games": []
   },
   {
     "name": "Cambodia",
-    "code": "kh",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "kh",
     "read": true,
     "games": [
       {
@@ -304,17 +296,17 @@
   },
   {
     "name": "Cameroon",
-    "code": "cm",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "cm",
     "read": false,
     "games": []
   },
   {
     "name": "Canada",
-    "code": "ca",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "ca",
     "read": true,
     "games": [
       {
@@ -336,25 +328,25 @@
   },
   {
     "name": "Central African Republic",
-    "code": "cf",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "cf",
     "read": false,
     "games": []
   },
   {
     "name": "Chad",
-    "code": "td",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "td",
     "read": false,
     "games": []
   },
   {
     "name": "Chile",
-    "code": "cl",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "cl",
     "read": true,
     "games": [
       {
@@ -364,9 +356,9 @@
   },
   {
     "name": "China",
-    "code": "cn",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "cn",
     "read": true,
     "games": [
       {
@@ -379,9 +371,9 @@
   },
   {
     "name": "Colombia",
-    "code": "co",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "co",
     "read": true,
     "games": [
       {
@@ -391,49 +383,33 @@
   },
   {
     "name": "Comoros",
+    "continent": "Africa",
+    "type": "country",
     "code": "km",
-    "type": "country",
-    "continent": "Africa",
     "read": false,
     "games": []
   },
   {
-    "name": "Congo (Congo-Brazzaville)",
+    "name": "Congo",
+    "continent": "Africa",
+    "type": "country",
     "code": "cg",
-    "type": "country",
-    "continent": "Africa",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Congo (Congo-Kinshasa)",
-    "code": "cd",
-    "type": "country",
-    "continent": "Africa",
     "read": false,
     "games": []
   },
   {
     "name": "Costa Rica",
-    "code": "cr",
-    "type": "country",
     "continent": "North America",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Côte d'Ivoire",
-    "code": "ci",
     "type": "country",
-    "continent": "Africa",
+    "code": "cr",
     "read": false,
     "games": []
   },
   {
     "name": "Croatia",
-    "code": "hr",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "hr",
     "read": true,
     "games": [
       {
@@ -443,9 +419,9 @@
   },
   {
     "name": "Cuba",
-    "code": "cu",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "cu",
     "read": true,
     "games": [
       {
@@ -455,17 +431,17 @@
   },
   {
     "name": "Cyprus",
-    "code": "cy",
+    "continent": "Asia",
     "type": "country",
-    "continent": "Europe",
+    "code": "cy",
     "read": false,
     "games": []
   },
   {
     "name": "Czechia",
-    "code": "cz",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "cz",
     "read": true,
     "games": [
       {
@@ -474,10 +450,18 @@
     ]
   },
   {
-    "name": "Denmark",
-    "code": "dk",
+    "name": "Democratic Republic of the Congo",
+    "continent": "Africa",
     "type": "country",
+    "code": "cd",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Denmark",
     "continent": "Europe",
+    "type": "country",
+    "code": "dk",
     "read": true,
     "games": [
       {
@@ -493,25 +477,25 @@
   },
   {
     "name": "Djibouti",
-    "code": "dj",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "dj",
     "read": false,
     "games": []
   },
   {
     "name": "Dominica",
-    "code": "dm",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "dm",
     "read": false,
     "games": []
   },
   {
     "name": "Dominican Republic",
-    "code": "do",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "do",
     "read": true,
     "games": [
       {
@@ -521,9 +505,9 @@
   },
   {
     "name": "Ecuador",
-    "code": "ec",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "ec",
     "read": true,
     "games": [
       {
@@ -536,9 +520,9 @@
   },
   {
     "name": "Egypt",
-    "code": "eg",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "eg",
     "read": true,
     "games": [
       {
@@ -563,33 +547,33 @@
   },
   {
     "name": "El Salvador",
-    "code": "sv",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "sv",
     "read": false,
     "games": []
   },
   {
     "name": "Equatorial Guinea",
-    "code": "gq",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "gq",
     "read": false,
     "games": []
   },
   {
     "name": "Eritrea",
-    "code": "er",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "er",
     "read": false,
     "games": []
   },
   {
     "name": "Estonia",
-    "code": "ee",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "ee",
     "read": true,
     "games": [
       {
@@ -599,33 +583,33 @@
   },
   {
     "name": "Eswatini",
-    "code": "sz",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "sz",
     "read": false,
     "games": []
   },
   {
     "name": "Ethiopia",
-    "code": "et",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "et",
     "read": false,
     "games": []
   },
   {
     "name": "Fiji",
-    "code": "fj",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "fj",
     "read": false,
     "games": []
   },
   {
     "name": "Finland",
-    "code": "fi",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "fi",
     "read": true,
     "games": [
       {
@@ -635,9 +619,9 @@
   },
   {
     "name": "France",
-    "code": "fr",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "fr",
     "read": true,
     "games": [
       {
@@ -665,33 +649,33 @@
   },
   {
     "name": "Gabon",
-    "code": "ga",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ga",
     "read": false,
     "games": []
   },
   {
     "name": "Gambia",
-    "code": "gm",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "gm",
     "read": false,
     "games": []
   },
   {
     "name": "Georgia",
-    "code": "ge",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "ge",
     "read": false,
     "games": []
   },
   {
     "name": "Germany",
-    "code": "de",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "de",
     "read": true,
     "games": [
       {
@@ -704,17 +688,17 @@
   },
   {
     "name": "Ghana",
-    "code": "gh",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "gh",
     "read": false,
     "games": []
   },
   {
     "name": "Greece",
-    "code": "gr",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "gr",
     "read": true,
     "games": [
       {
@@ -730,9 +714,9 @@
   },
   {
     "name": "Grenada",
-    "code": "gd",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "gd",
     "read": true,
     "games": [
       {
@@ -742,9 +726,9 @@
   },
   {
     "name": "Guatemala",
-    "code": "gt",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "gt",
     "read": true,
     "games": [
       {
@@ -757,33 +741,33 @@
   },
   {
     "name": "Guinea",
-    "code": "gn",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "gn",
     "read": false,
     "games": []
   },
   {
     "name": "Guinea-Bissau",
-    "code": "gw",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "gw",
     "read": false,
     "games": []
   },
   {
     "name": "Guyana",
-    "code": "gy",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "gy",
     "read": false,
     "games": []
   },
   {
     "name": "Haiti",
-    "code": "ht",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "ht",
     "read": true,
     "games": [
       {
@@ -793,9 +777,9 @@
   },
   {
     "name": "Honduras",
-    "code": "hn",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "hn",
     "read": true,
     "games": [
       {
@@ -805,9 +789,9 @@
   },
   {
     "name": "Hungary",
-    "code": "hu",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "hu",
     "read": true,
     "games": [
       {
@@ -817,9 +801,9 @@
   },
   {
     "name": "Iceland",
-    "code": "is",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "is",
     "read": true,
     "games": [
       {
@@ -835,9 +819,9 @@
   },
   {
     "name": "India",
-    "code": "in",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "in",
     "read": true,
     "games": [
       {
@@ -853,9 +837,9 @@
   },
   {
     "name": "Indonesia",
-    "code": "id",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "id",
     "read": true,
     "games": [
       {
@@ -868,17 +852,17 @@
   },
   {
     "name": "Iran",
-    "code": "ir",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "ir",
     "read": false,
     "games": []
   },
   {
     "name": "Iraq",
-    "code": "iq",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "iq",
     "read": true,
     "games": [
       {
@@ -891,9 +875,9 @@
   },
   {
     "name": "Ireland",
-    "code": "ie",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "ie",
     "read": true,
     "games": [
       {
@@ -912,17 +896,17 @@
   },
   {
     "name": "Israel",
-    "code": "il",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "il",
     "read": false,
     "games": []
   },
   {
     "name": "Italy",
-    "code": "it",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "it",
     "read": true,
     "games": [
       {
@@ -953,9 +937,9 @@
   },
   {
     "name": "Jamaica",
-    "code": "jm",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "jm",
     "read": true,
     "games": [
       {
@@ -968,9 +952,9 @@
   },
   {
     "name": "Japan",
-    "code": "jp",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "jp",
     "read": true,
     "games": [
       {
@@ -989,25 +973,25 @@
   },
   {
     "name": "Jordan",
-    "code": "jo",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "jo",
     "read": false,
     "games": []
   },
   {
     "name": "Kazakhstan",
-    "code": "kz",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "kz",
     "read": false,
     "games": []
   },
   {
     "name": "Kenya",
-    "code": "ke",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ke",
     "read": true,
     "games": [
       {
@@ -1017,41 +1001,41 @@
   },
   {
     "name": "Kiribati",
-    "code": "ki",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "ki",
     "read": false,
     "games": []
   },
   {
     "name": "Kuwait",
-    "code": "kw",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "kw",
     "read": false,
     "games": []
   },
   {
     "name": "Kyrgyzstan",
-    "code": "kg",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "kg",
     "read": false,
     "games": []
   },
   {
     "name": "Laos",
-    "code": "la",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "la",
     "read": false,
     "games": []
   },
   {
     "name": "Latvia",
-    "code": "lv",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "lv",
     "read": true,
     "games": [
       {
@@ -1061,49 +1045,49 @@
   },
   {
     "name": "Lebanon",
-    "code": "lb",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "lb",
     "read": false,
     "games": []
   },
   {
     "name": "Lesotho",
-    "code": "ls",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ls",
     "read": false,
     "games": []
   },
   {
     "name": "Liberia",
-    "code": "lr",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "lr",
     "read": false,
     "games": []
   },
   {
     "name": "Libya",
-    "code": "ly",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ly",
     "read": false,
     "games": []
   },
   {
     "name": "Liechtenstein",
-    "code": "li",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "li",
     "read": false,
     "games": []
   },
   {
     "name": "Lithuania",
-    "code": "lt",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "lt",
     "read": true,
     "games": [
       {
@@ -1113,9 +1097,9 @@
   },
   {
     "name": "Luxembourg",
-    "code": "lu",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "lu",
     "read": true,
     "games": [
       {
@@ -1125,41 +1109,41 @@
   },
   {
     "name": "Madagascar",
-    "code": "mg",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "mg",
     "read": false,
     "games": []
   },
   {
     "name": "Malawi",
-    "code": "mw",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "mw",
     "read": false,
     "games": []
   },
   {
     "name": "Malaysia",
-    "code": "my",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "my",
     "read": false,
     "games": []
   },
   {
     "name": "Maldives",
-    "code": "mv",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "mv",
     "read": false,
     "games": []
   },
   {
     "name": "Mali",
-    "code": "ml",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ml",
     "read": true,
     "games": [
       {
@@ -1169,9 +1153,9 @@
   },
   {
     "name": "Malta",
-    "code": "mt",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "mt",
     "read": true,
     "games": [
       {
@@ -1181,17 +1165,17 @@
   },
   {
     "name": "Marshall Islands",
-    "code": "mh",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "mh",
     "read": false,
     "games": []
   },
   {
     "name": "Mauritania",
-    "code": "mr",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "mr",
     "read": true,
     "games": [
       {
@@ -1201,17 +1185,17 @@
   },
   {
     "name": "Mauritius",
-    "code": "mu",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "mu",
     "read": false,
     "games": []
   },
   {
     "name": "Mexico",
-    "code": "mx",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "mx",
     "read": true,
     "games": [
       {
@@ -1230,49 +1214,49 @@
   },
   {
     "name": "Micronesia",
-    "code": "fm",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "fm",
     "read": false,
     "games": []
   },
   {
     "name": "Moldova",
-    "code": "md",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "md",
     "read": false,
     "games": []
   },
   {
     "name": "Monaco",
-    "code": "mc",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "mc",
     "read": false,
     "games": []
   },
   {
     "name": "Mongolia",
-    "code": "mn",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "mn",
     "read": false,
     "games": []
   },
   {
     "name": "Montenegro",
-    "code": "me",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "me",
     "read": false,
     "games": []
   },
   {
     "name": "Morocco",
-    "code": "ma",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ma",
     "read": true,
     "games": [
       {
@@ -1288,17 +1272,17 @@
   },
   {
     "name": "Mozambique",
-    "code": "mz",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "mz",
     "read": false,
     "games": []
   },
   {
     "name": "Myanmar",
-    "code": "mm",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "mm",
     "read": true,
     "games": [
       {
@@ -1308,25 +1292,25 @@
   },
   {
     "name": "Namibia",
-    "code": "na",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "na",
     "read": false,
     "games": []
   },
   {
     "name": "Nauru",
-    "code": "nr",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "nr",
     "read": false,
     "games": []
   },
   {
     "name": "Nepal",
-    "code": "np",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "np",
     "read": true,
     "games": [
       {
@@ -1336,9 +1320,9 @@
   },
   {
     "name": "Netherlands",
-    "code": "nl",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "nl",
     "read": true,
     "games": [
       {
@@ -1351,9 +1335,9 @@
   },
   {
     "name": "New Zealand",
-    "code": "nz",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "nz",
     "read": true,
     "games": [
       {
@@ -1363,9 +1347,9 @@
   },
   {
     "name": "Nicaragua",
-    "code": "ni",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "ni",
     "read": true,
     "games": [
       {
@@ -1375,9 +1359,9 @@
   },
   {
     "name": "Niger",
-    "code": "ne",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ne",
     "read": true,
     "games": [
       {
@@ -1387,33 +1371,33 @@
   },
   {
     "name": "Nigeria",
-    "code": "ng",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ng",
     "read": false,
     "games": []
   },
   {
     "name": "North Korea",
-    "code": "kp",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "kp",
     "read": false,
     "games": []
   },
   {
     "name": "North Macedonia",
-    "code": "mk",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "mk",
     "read": false,
     "games": []
   },
   {
     "name": "Norway",
-    "code": "no",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "no",
     "read": true,
     "games": [
       {
@@ -1429,17 +1413,17 @@
   },
   {
     "name": "Oman",
-    "code": "om",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "om",
     "read": false,
     "games": []
   },
   {
     "name": "Pakistan",
-    "code": "pk",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "pk",
     "read": true,
     "games": [
       {
@@ -1452,25 +1436,17 @@
   },
   {
     "name": "Palau",
-    "code": "pw",
-    "type": "country",
     "continent": "Oceania",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Palestine State",
-    "code": "ps",
     "type": "country",
-    "continent": "Asia",
+    "code": "pw",
     "read": false,
     "games": []
   },
   {
     "name": "Panama",
-    "code": "pa",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "pa",
     "read": true,
     "games": [
       {
@@ -1480,25 +1456,25 @@
   },
   {
     "name": "Papua New Guinea",
-    "code": "pg",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "pg",
     "read": false,
     "games": []
   },
   {
     "name": "Paraguay",
-    "code": "py",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "py",
     "read": false,
     "games": []
   },
   {
     "name": "Peru",
-    "code": "pe",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "py",
     "read": true,
     "games": [
       {
@@ -1508,17 +1484,17 @@
   },
   {
     "name": "Philippines",
-    "code": "ph",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "ph",
     "read": false,
     "games": []
   },
   {
     "name": "Poland",
-    "code": "pl",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "pl",
     "read": true,
     "games": [
       {
@@ -1528,9 +1504,9 @@
   },
   {
     "name": "Portugal",
-    "code": "pt",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "pt",
     "read": true,
     "games": [
       {
@@ -1552,17 +1528,17 @@
   },
   {
     "name": "Qatar",
-    "code": "qa",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "qa",
     "read": false,
     "games": []
   },
   {
     "name": "Romania",
-    "code": "ro",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "ro",
     "read": true,
     "games": [
       {
@@ -1572,9 +1548,9 @@
   },
   {
     "name": "Russia",
-    "code": "ru",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "ru",
     "read": true,
     "games": [
       {
@@ -1584,17 +1560,17 @@
   },
   {
     "name": "Rwanda",
-    "code": "rw",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "rw",
     "read": false,
     "games": []
   },
   {
     "name": "Saint Kitts and Nevis",
-    "code": "kn",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "kn",
     "read": true,
     "games": [
       {
@@ -1604,57 +1580,57 @@
   },
   {
     "name": "Saint Lucia",
-    "code": "lc",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "lc",
     "read": false,
     "games": []
   },
   {
     "name": "Saint Vincent and the Grenadines",
-    "code": "vc",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "vc",
     "read": false,
     "games": []
   },
   {
     "name": "Samoa",
-    "code": "ws",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "ws",
     "read": false,
     "games": []
   },
   {
     "name": "San Marino",
-    "code": "sm",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "sm",
     "read": false,
     "games": []
   },
   {
     "name": "Sao Tome and Principe",
-    "code": "st",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "st",
     "read": false,
     "games": []
   },
   {
     "name": "Saudi Arabia",
-    "code": "sa",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "sa",
     "read": false,
     "games": []
   },
   {
     "name": "Senegal",
-    "code": "sn",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "sn",
     "read": true,
     "games": [
       {
@@ -1664,33 +1640,33 @@
   },
   {
     "name": "Serbia",
-    "code": "rs",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "rs",
     "read": false,
     "games": []
   },
   {
     "name": "Seychelles",
-    "code": "sc",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "sc",
     "read": false,
     "games": []
   },
   {
     "name": "Sierra Leone",
-    "code": "sl",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "sl",
     "read": false,
     "games": []
   },
   {
     "name": "Singapore",
-    "code": "sg",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "sg",
     "read": true,
     "games": [
       {
@@ -1700,9 +1676,9 @@
   },
   {
     "name": "Slovakia",
-    "code": "sk",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "sk",
     "read": true,
     "games": [
       {
@@ -1712,9 +1688,9 @@
   },
   {
     "name": "Slovenia",
-    "code": "si",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "si",
     "read": true,
     "games": [
       {
@@ -1724,33 +1700,25 @@
   },
   {
     "name": "Solomon Islands",
-    "code": "sb",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "sb",
     "read": false,
     "games": []
   },
   {
     "name": "Somalia",
-    "code": "so",
-    "type": "country",
     "continent": "Africa",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "South Korea",
-    "code": "kr",
     "type": "country",
-    "continent": "Asia",
+    "code": "so",
     "read": false,
     "games": []
   },
   {
     "name": "South Africa",
-    "code": "za",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "za",
     "read": true,
     "games": [
       {
@@ -1759,18 +1727,26 @@
     ]
   },
   {
-    "name": "South Sudan",
-    "code": "ss",
+    "name": "South Korea",
+    "continent": "Asia",
     "type": "country",
+    "code": "kr",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "South Sudan",
     "continent": "Africa",
+    "type": "country",
+    "code": "ss",
     "read": false,
     "games": []
   },
   {
     "name": "Spain",
-    "code": "es",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "es",
     "read": true,
     "games": [
       {
@@ -1786,33 +1762,33 @@
   },
   {
     "name": "Sri Lanka",
-    "code": "lk",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "lk",
     "read": false,
     "games": []
   },
   {
     "name": "Sudan",
-    "code": "sd",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "sd",
     "read": false,
     "games": []
   },
   {
     "name": "Suriname",
-    "code": "sr",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "sr",
     "read": false,
     "games": []
   },
   {
     "name": "Sweden",
-    "code": "se",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "se",
     "read": true,
     "games": [
       {
@@ -1828,9 +1804,9 @@
   },
   {
     "name": "Switzerland",
-    "code": "ch",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "ch",
     "read": true,
     "games": [
       {
@@ -1846,41 +1822,33 @@
   },
   {
     "name": "Syria",
+    "continent": "Asia",
+    "type": "country",
     "code": "sy",
-    "type": "country",
-    "continent": "Asia",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Taiwan",
-    "code": "tw",
-    "type": "country",
-    "continent": "Asia",
     "read": false,
     "games": []
   },
   {
     "name": "Tajikistan",
-    "code": "tj",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "tj",
     "read": false,
     "games": []
   },
   {
     "name": "Tanzania",
-    "code": "tz",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "tz",
     "read": false,
     "games": []
   },
   {
     "name": "Thailand",
-    "code": "th",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "th",
     "read": true,
     "games": [
       {
@@ -1890,33 +1858,33 @@
   },
   {
     "name": "Timor-Leste",
-    "code": "tl",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "tl",
     "read": false,
     "games": []
   },
   {
     "name": "Togo",
-    "code": "tg",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "tg",
     "read": false,
     "games": []
   },
   {
     "name": "Tonga",
-    "code": "to",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "to",
     "read": false,
     "games": []
   },
   {
     "name": "Trinidad and Tobago",
-    "code": "tt",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "tt",
     "read": true,
     "games": [
       {
@@ -1929,41 +1897,41 @@
   },
   {
     "name": "Tunisia",
-    "code": "tn",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "tn",
     "read": false,
     "games": []
   },
   {
-    "name": "Turkey",
-    "code": "tr",
-    "type": "country",
+    "name": "Turkiye",
     "continent": "Asia",
+    "type": "country",
+    "code": "tr",
     "read": false,
     "games": []
   },
   {
     "name": "Turkmenistan",
-    "code": "tm",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "tm",
     "read": false,
     "games": []
   },
   {
     "name": "Tuvalu",
-    "code": "tv",
-    "type": "country",
     "continent": "Oceania",
+    "type": "country",
+    "code": "tv",
     "read": false,
     "games": []
   },
   {
     "name": "Uganda",
-    "code": "ug",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "ug",
     "read": true,
     "games": [
       {
@@ -1973,25 +1941,25 @@
   },
   {
     "name": "Ukraine",
-    "code": "ua",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "ua",
     "read": false,
     "games": []
   },
   {
     "name": "United Arab Emirates",
-    "code": "ae",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "ae",
     "read": false,
     "games": []
   },
   {
     "name": "United Kingdom",
-    "code": "gb",
-    "type": "country",
     "continent": "Europe",
+    "type": "country",
+    "code": "gb",
     "read": true,
     "games": [
       {
@@ -2004,9 +1972,9 @@
   },
   {
     "name": "United States",
-    "code": "us",
-    "type": "country",
     "continent": "North America",
+    "type": "country",
+    "code": "us",
     "read": true,
     "games": [
       {
@@ -2061,17 +2029,17 @@
   },
   {
     "name": "Uruguay",
-    "code": "uy",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "uy",
     "read": false,
     "games": []
   },
   {
     "name": "Uzbekistan",
-    "code": "uz",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "uz",
     "read": true,
     "games": [
       {
@@ -2084,25 +2052,17 @@
   },
   {
     "name": "Vanuatu",
-    "code": "vu",
-    "type": "country",
     "continent": "Oceania",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Vatican City",
-    "code": "va",
     "type": "country",
-    "continent": "Europe",
+    "code": "vu",
     "read": false,
     "games": []
   },
   {
     "name": "Venezuela",
-    "code": "ve",
-    "type": "country",
     "continent": "South America",
+    "type": "country",
+    "code": "ve",
     "read": true,
     "games": [
       {
@@ -2114,10 +2074,10 @@
     ]
   },
   {
-    "name": "Vietnam",
-    "code": "vn",
-    "type": "country",
+    "name": "Viet Nam",
     "continent": "Asia",
+    "type": "country",
+    "code": "vn",
     "read": true,
     "games": [
       {
@@ -2133,17 +2093,17 @@
   },
   {
     "name": "Yemen",
-    "code": "ye",
-    "type": "country",
     "continent": "Asia",
+    "type": "country",
+    "code": "ye",
     "read": false,
     "games": []
   },
   {
     "name": "Zambia",
-    "code": "zm",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "zm",
     "read": true,
     "games": [
       {
@@ -2153,9 +2113,9 @@
   },
   {
     "name": "Zimbabwe",
-    "code": "zw",
-    "type": "country",
     "continent": "Africa",
+    "type": "country",
+    "code": "zw",
     "read": true,
     "games": [
       {
@@ -2164,10 +2124,46 @@
     ]
   },
   {
-    "name": "England",
-    "code": "images/england.png",
+    "name": "Aruba",
+    "continent": "North America",
     "type": "territory",
+    "code": "aw",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Bonaire",
+    "continent": "North America",
+    "type": "territory",
+    "code": "bq",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Curacao",
+    "continent": "North America",
+    "type": "territory",
+    "code": "cw",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "England",
     "continent": "Europe",
+    "type": "territory",
+    "code": "",
     "read": true,
     "games": [
       {
@@ -2185,10 +2181,171 @@
     ]
   },
   {
-    "name": "Scotland",
-    "code": "images/scotland.png",
-    "type": "territory",
+    "name": "Faroe Islands",
     "continent": "Europe",
+    "type": "territory",
+    "code": "fo",
+    "read": true,
+    "games": [
+      {
+        "title": "Karvi (Tórshavn)"
+      }
+    ]
+  },
+  {
+    "name": "Greenland",
+    "continent": "North America",
+    "type": "territory",
+    "code": "gl",
+    "read": true,
+    "games": [
+      {
+        "title": "Norsemen"
+      },
+      {
+        "title": "Northwest Passage"
+      }
+    ]
+  },
+  {
+    "name": "Guadeloupe",
+    "continent": "North America",
+    "type": "territory",
+    "code": "gp",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "continent": "North America",
+    "type": "territory",
+    "code": "",
+    "read": true,
+    "games": [
+      {
+        "title": "Hawaii"
+      }
+    ]
+  },
+  {
+    "name": "Majorca",
+    "continent": "Europe",
+    "type": "territory",
+    "code": "",
+    "read": true,
+    "games": [
+      {
+        "title": "Finca"
+      }
+    ]
+  },
+  {
+    "name": "Martinique",
+    "continent": "North America",
+    "type": "territory",
+    "code": "mq",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Montserrat",
+    "continent": "North America",
+    "type": "territory",
+    "code": "ms",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Normandy",
+    "continent": "Europe",
+    "type": "territory",
+    "code": "",
+    "read": true,
+    "games": [
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "Northern Ireland",
+    "continent": "Europe",
+    "type": "territory",
+    "code": "",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Orkney Islands",
+    "continent": "Europe",
+    "type": "territory",
+    "code": "",
+    "read": true,
+    "games": [
+      {
+        "title": "Karvi (Pierowall)"
+      }
+    ]
+  },
+  {
+    "name": "Puerto Rico",
+    "continent": "North America",
+    "type": "territory",
+    "code": "pr",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo"
+      },
+      {
+        "title": "Pirates of Maracaibo"
+      },
+      {
+        "title": "Puerto Rico"
+      }
+    ]
+  },
+  {
+    "name": "Scotland",
+    "continent": "Europe",
+    "type": "territory",
+    "code": "",
+    "read": true,
+    "games": [
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "Shetland Islands",
+    "continent": "Europe",
+    "type": "territory",
+    "code": "",
+    "read": true,
+    "games": [
+      {
+        "title": "Karvi (Jarlshof, Underhoull)"
+      }
+    ]
+  },
+  {
+    "name": "Sicily",
+    "continent": "Europe",
+    "type": "territory",
+    "code": "",
     "read": true,
     "games": [
       {
@@ -2198,9 +2355,9 @@
   },
   {
     "name": "Wales",
-    "code": "images/wales.png",
-    "type": "territory",
     "continent": "Europe",
+    "type": "territory",
+    "code": "",
     "read": true,
     "games": [
       {
@@ -2217,235 +2374,6 @@
       },
       {
         "title": "Expeditions"
-      }
-    ]
-  },
-  {
-    "name": "Isles of Scilly",
-    "code": "images/scilly.png",
-    "type": "territory",
-    "continent": "Europe",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Congo",
-    "code": "",
-    "type": "country",
-    "continent": "Africa",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Democratic Republic of the Congo",
-    "code": "",
-    "type": "country",
-    "continent": "Africa",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "United Republic of Tanzania",
-    "code": "",
-    "type": "country",
-    "continent": "Africa",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Aruba",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Pirates of Maracaibo"
-      }
-    ]
-  },
-  {
-    "name": "Bonaire",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Pirates of Maracaibo"
-      }
-    ]
-  },
-  {
-    "name": "Curacao",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Pirates of Maracaibo"
-      }
-    ]
-  },
-  {
-    "name": "Faroe Islands",
-    "code": "",
-    "type": "territory",
-    "continent": "Europe",
-    "read": true,
-    "games": [
-      {
-        "title": "Karvi (Tórshavn)"
-      }
-    ]
-  },
-  {
-    "name": "Greenland",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Norsemen"
-      },
-      {
-        "title": "Northwest Passage"
-      }
-    ]
-  },
-  {
-    "name": "Guadeloupe",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Pirates of Maracaibo"
-      }
-    ]
-  },
-  {
-    "name": "Hawaii",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Hawaii"
-      }
-    ]
-  },
-  {
-    "name": "Majorca",
-    "code": "",
-    "type": "territory",
-    "continent": "Europe",
-    "read": true,
-    "games": [
-      {
-        "title": "Finca"
-      }
-    ]
-  },
-  {
-    "name": "Martinique",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Maracaibo"
-      }
-    ]
-  },
-  {
-    "name": "Montserrat",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Pirates of Maracaibo"
-      }
-    ]
-  },
-  {
-    "name": "Normandy",
-    "code": "",
-    "type": "territory",
-    "continent": "Europe",
-    "read": true,
-    "games": [
-      {
-        "title": "Norsemen"
-      }
-    ]
-  },
-  {
-    "name": "Northern Ireland",
-    "code": "",
-    "type": "territory",
-    "continent": "Europe",
-    "read": false,
-    "games": []
-  },
-  {
-    "name": "Orkney Islands",
-    "code": "",
-    "type": "territory",
-    "continent": "Europe",
-    "read": true,
-    "games": [
-      {
-        "title": "Karvi (Pierowall)"
-      }
-    ]
-  },
-  {
-    "name": "Puerto Rico",
-    "code": "",
-    "type": "territory",
-    "continent": "North America",
-    "read": true,
-    "games": [
-      {
-        "title": "Maracaibo"
-      },
-      {
-        "title": "Pirates of Maracaibo"
-      },
-      {
-        "title": "Puerto Rico"
-      }
-    ]
-  },
-  {
-    "name": "Shetland Islands",
-    "code": "",
-    "type": "territory",
-    "continent": "Europe",
-    "read": true,
-    "games": [
-      {
-        "title": "Karvi (Jarlshof, Underhoull)"
-      }
-    ]
-  },
-  {
-    "name": "Sicily",
-    "code": "",
-    "type": "territory",
-    "continent": "Europe",
-    "read": true,
-    "games": [
-      {
-        "title": "Norsemen"
       }
     ]
   }
