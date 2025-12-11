@@ -9,14 +9,14 @@ fetch("countries.json")
     });
 
 function updateStats(data) {
-    // Count total books and read countries
-    const totalBooks = data.reduce((sum, c) => sum + (c.books ? c.books.length : 0), 0);
+    // Count total games and read countries
+    const totalGames = data.reduce((sum, c) => sum + (c.games ? c.games.length : 0), 0);
     const readCountries = data.filter(c => c.read).length;
     const totalCountries = data.filter(c => c.type === 'country').length;
     
     const statText = document.getElementById("statText");
     if (statText) {
-        statText.textContent = `${totalBooks} books read in ${readCountries} of ${totalCountries} countries`;
+        statText.textContent = `${totalGames} games in ${readCountries} of ${totalCountries} countries`;
     }
 }
 
@@ -69,7 +69,7 @@ function renderGallery(data) {
             item.appendChild(caption);
 
             // Popup only for read countries/territories
-            if (country.read && country.books && country.books.length > 0) {
+            if (country.read && country.games && country.games.length > 0) {
                 const overlay = document.createElement("div");
                 overlay.classList.add("popup-overlay");
 
@@ -81,10 +81,18 @@ function renderGallery(data) {
                 popup.appendChild(titleEl);
 
                 const list = document.createElement("ul");
-                country.books.forEach(book => {
+                country.games.forEach(game => {
                     const li = document.createElement("li");
-                    li.textContent = `${book.title} – ${book.author}`;
-                    list.appendChild(li);
+
+                    const slug = game.title
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "");
+
+                    const url = `https://boardgamearena.com/gamepanel?game=${slug}`;
+
+                li.innerHTML = `<a href="${url}" target="_blank">${game.title} (BGA link)</a>`;
+                list.appendChild(li);
+
                 });
                 popup.appendChild(list);
 

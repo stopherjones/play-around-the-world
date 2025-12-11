@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read Around the World - List of Books</title>
+    <title>Play Around the World - List of games</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <a href="index.html" class="back-link">Back to Gallery</a>
-    <h1 class="main-title">Books I've Read</h1>
+    <h1 class="main-title">List of games</h1>
 
     <div class="stat-display">
-        <span id="statText">0 books read in 0 of 0 countries</span>
+        <span id="statText">0 games read in 0 of 0 countries</span>
     </div>
 
-    <p class="subtitle">A complete list of books organized by country of origin</p>
+    <p class="subtitle">A complete list of games organized by country</p>
 
     <!-- Sticky Nav Bar -->
     <nav class="filter-bar">
@@ -42,7 +42,7 @@
     </nav>
 
     <div class="container">
-        <div id="booksList" class="books-list"></div>
+        <div id="gamesList" class="games-list"></div>
     </div>
 
     <script>
@@ -52,44 +52,44 @@
             .then(res => res.json())
             .then(data => {
                 countriesData = data;
-                renderBooks();
+                rendergames();
                 updateStats(data);
             });
 
         function updateStats(data) {
-            // Count total books and read countries
-            const totalBooks = data.reduce((sum, c) => sum + (c.books ? c.books.length : 0), 0);
+            // Count total games and read countries
+            const totalgames = data.reduce((sum, c) => sum + (c.games ? c.games.length : 0), 0);
             const readCountries = data.filter(c => c.read).length;
             const totalCountries = data.filter(c => c.type === 'country').length;
             
             const statText = document.getElementById("statText");
             if (statText) {
-                statText.textContent = `${totalBooks} books read in ${readCountries} of ${totalCountries} countries`;
+                statText.textContent = `${totalgames} games read in ${readCountries} of ${totalCountries} countries`;
             }
         }
 
         // Attach filter listeners so the nav controls update the list
         const searchEl = document.getElementById('searchInput');
         const continentEl = document.getElementById('continentFilter');
-        if (searchEl) searchEl.addEventListener('input', renderBooks);
-        if (continentEl) continentEl.addEventListener('change', renderBooks);
+        if (searchEl) searchEl.addEventListener('input', rendergames);
+        if (continentEl) continentEl.addEventListener('change', rendergames);
 
-        function renderBooks() {
-            const booksList = document.getElementById("booksList");
-            booksList.innerHTML = "";
+        function rendergames() {
+            const gamesList = document.getElementById("gamesList");
+            gamesList.innerHTML = "";
 
-            // Apply search + continent filters to read countries/territories with books
+            // Apply search + continent filters to read countries/territories with games
             const search = (document.getElementById('searchInput') && document.getElementById('searchInput').value) ? document.getElementById('searchInput').value.toLowerCase() : '';
             const continent = (document.getElementById('continentFilter') && document.getElementById('continentFilter').value) ? document.getElementById('continentFilter').value : 'all';
 
             const readItems = countriesData.filter(c =>
-                c.read && c.books && c.books.length > 0 &&
+                c.read && c.games && c.games.length > 0 &&
                 (search === '' || c.name.toLowerCase().includes(search)) &&
                 (continent === 'all' || c.continent === continent)
             );
 
             if (readItems.length === 0) {
-                booksList.innerHTML = '<div class="empty-state">No books recorded yet.</div>';
+                gamesList.innerHTML = '<div class="empty-state">No games recorded yet.</div>';
                 return;
             }
 
@@ -101,12 +101,12 @@
                 const heading = document.createElement('div');
                 heading.classList.add('section-title');
                 heading.textContent = title;
-                booksList.appendChild(heading);
+                gamesList.appendChild(heading);
 
                 items.forEach(country => {
-                    country.books.forEach(book => {
+                    country.games.forEach(game => {
                         const item = document.createElement("div");
-                        item.classList.add("book-item");
+                        item.classList.add("game-item");
 
                         // Flag thumbnail
                         const flagDiv = document.createElement("div");
@@ -121,9 +121,9 @@
                         img.alt = `Flag of ${country.name}`;
                         flagDiv.appendChild(img);
 
-                        // Book details
+                        // game details
                         const details = document.createElement("div");
-                        details.classList.add("book-details");
+                        details.classList.add("game-details");
 
                         const countryName = document.createElement("div");
                         countryName.classList.add("country-name");
@@ -131,18 +131,31 @@
                         details.appendChild(countryName);
 
                         const title = document.createElement("div");
-                        title.classList.add("book-title");
-                        title.textContent = book.title;
-                        details.appendChild(title);
+title.classList.add("game-title");
 
-                        const author = document.createElement("div");
-                        author.classList.add("book-author");
-                        author.textContent = `by ${book.author}`;
-                        details.appendChild(author);
+// Build BGA slug
+const slug = game.title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
+
+const url = `https://boardgamearena.com/gamepanel?game=${slug}`;
+
+// Title on first line, URL on second line
+title.innerHTML = `
+    <span class="title-text">${game.title}</span><br>
+    <a href="${url}" target="_blank" class="game-url">${url}</a>
+`;
+
+details.appendChild(title);
+
+
+                        const developer = document.createElement("div");
+                        developer.classList.add("game-developer");
+                        details.appendChild(developer);
 
                         item.appendChild(flagDiv);
                         item.appendChild(details);
-                        booksList.appendChild(item);
+                        gamesList.appendChild(item);
                     });
                 });
             }

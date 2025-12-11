@@ -221,7 +221,7 @@ body {
 }
 
 
-/* ----------------- BOOKS PAGE (moved from books.html) ----------------- */
+/* ----------------- GAMES PAGE (moved from games.html) ----------------- */
 
 .container {
     max-width: 900px;
@@ -242,13 +242,13 @@ body {
     text-decoration: underline;
 }
 
-.books-list {
+.games-list {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.book-item {
+.game-item {
     display: flex;
     gap: 1.5rem;
     background: white;
@@ -273,7 +273,7 @@ body {
     object-fit: cover;
 }
 
-.book-details {
+.game-details {
     flex: 1;
 }
 
@@ -285,14 +285,34 @@ body {
     letter-spacing: 0.5px;
 }
 
-.book-title {
+.game-title {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 0.3rem;
     color: #222;
 }
 
-.book-author {
+.game-title {
+    font-weight: bold;
+}
+
+.game-title a {
+    font-weight: normal;
+}   
+
+.title-text {
+    font-weight: bold;
+}
+
+.game-url {
+    font-size: 0.85rem;  /* smaller */
+    font-weight: normal; /* prevent bold */
+    display: inline-block;
+    margin-top: 2px;     /* slight spacing */
+}
+
+
+.game-developer {
     font-size: 0.95rem;
     color: #666;
 }
@@ -303,8 +323,9 @@ body {
     color: #888;
 }
 
+
 @media (max-width: 600px) {
-    .book-item {
+    .game-item {
         gap: 1rem;
         padding: 1rem;
     }
@@ -314,7 +335,7 @@ body {
         height: 52px;
     }
 
-    .book-title {
+    .game-title {
         font-size: 1rem;
     }
 }
