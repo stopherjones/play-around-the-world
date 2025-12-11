@@ -84,9 +84,10 @@ function renderGallery(data) {
                 country.games.forEach(game => {
                     const li = document.createElement("li");
 
-                    const slug = game.title
-                    .toLowerCase()
-                    .replace(/[^a-z0-9]+/g, "");
+                    const titleWithoutBrackets = game.title.replace(/\s*\(.*?\)\s*/g, "");
+                const slug = titleWithoutBrackets
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, "");
 
                     const url = `https://boardgamearena.com/gamepanel?game=${slug}`;
 

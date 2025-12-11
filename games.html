@@ -134,7 +134,8 @@
 title.classList.add("game-title");
 
 // Build BGA slug
-const slug = game.title
+const titleWithoutBrackets = game.title.replace(/\s*\(.*?\)\s*/g, "");
+const slug = titleWithoutBrackets
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "");
 

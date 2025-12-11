@@ -1,230 +1,2452 @@
 [
-  { "name": "Afghanistan", "code": "af", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Albania", "code": "al", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Algeria", "code": "dz", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Andorra", "code": "ad", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Angola", "code": "ao", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Antigua and Barbuda", "code": "ag", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Argentina", "code": "ar", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Armenia", "code": "am", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Australia", "code": "au", "type": "country", "continent": "Oceania", "read": true, "games": [{ "title": "Dingo's Dreams"}, {"title": "Boomerang: Australia" }] },
-  { "name": "Austria", "code": "at", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Azerbaijan", "code": "az", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Bahamas", "code": "bs", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Bahrain", "code": "bh", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Bangladesh", "code": "bd", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Barbados", "code": "bb", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Belarus", "code": "by", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Belgium", "code": "be", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Belize", "code": "bz", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Benin", "code": "bj", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Bhutan", "code": "bt", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Bolivia", "code": "bo", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Bosnia and Herzegovina", "code": "ba", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Botswana", "code": "bw", "type": "country", "continent": "Africa", "read": true, "games": [{ "title": "No.1 Ladies Detective Agency", "developer": "Alexander McCall Smith" }] },
-  { "name": "Brazil", "code": "br", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Brunei", "code": "bn", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Bulgaria", "code": "bg", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Burkina Faso", "code": "bf", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Burundi", "code": "bi", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Cabo Verde", "code": "cv", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Cambodia", "code": "kh", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Cameroon", "code": "cm", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Canada", "code": "ca", "type": "country", "continent": "North America", "read": true, "games": [{ "title": "Call of the Wild", "developer": "Jack London" }] },
-  { "name": "Central African Republic", "code": "cf", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Chad", "code": "td", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Chile", "code": "cl", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "China", "code": "cn", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "Journey to the West", "developer": "Wu Cheng'en" }] },
-  { "name": "Colombia", "code": "co", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Comoros", "code": "km", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Congo (Congo-Brazzaville)", "code": "cg", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Congo (Congo-Kinshasa)", "code": "cd", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Costa Rica", "code": "cr", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Côte d'Ivoire", "code": "ci", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Croatia", "code": "hr", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Cuba", "code": "cu", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Cyprus", "code": "cy", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Czechia", "code": "cz", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "The Made Up Man", "developer": "Joseph Scapellato" }] },
-  { "name": "Denmark", "code": "dk", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Mercy: The Keeper of Lost Causes vol.1", "developer": "Jussi Adler-Olsen" }] },
-  { "name": "Djibouti", "code": "dj", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Dominica", "code": "dm", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Dominican Republic", "code": "do", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Ecuador", "code": "ec", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Egypt", "code": "eg", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "El Salvador", "code": "sv", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Equatorial Guinea", "code": "gq", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Eritrea", "code": "er", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Estonia", "code": "ee", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Eswatini", "code": "sz", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Ethiopia", "code": "et", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Fiji", "code": "fj", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Finland", "code": "fi", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "The Limit", "developer": "Riikka Pulkkinen" }] },
-  { "name": "France", "code": "fr", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Gabon", "code": "ga", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Gambia", "code": "gm", "type": "country", "continent": "Africa", "read": true, "games": [{ "title": "One Plastic Bag", "developer": "Miranda Paul" }] },
-  { "name": "Georgia", "code": "ge", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Germany", "code": "de", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "People Like Us", "developer": "Louise Fein" }] },
-  { "name": "Ghana", "code": "gh", "type": "country", "continent": "Africa", "read": true, "games": [{ "title": "Remote Control", "developer": "Nnedi Okorafor" }] },
-  { "name": "Greece", "code": "gr", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Mythos", "developer": "Stephen Fry" }] },
-  { "name": "Grenada", "code": "gd", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Guatemala", "code": "gt", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Guinea", "code": "gn", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Guinea-Bissau", "code": "gw", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Guyana", "code": "gy", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Haiti", "code": "ht", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Honduras", "code": "hn", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Hungary", "code": "hu", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Iceland", "code": "is", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Burial Rites", "developer": "Hannah Kent" }] },
-  { "name": "India", "code": "in", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "The God of Small Things", "developer": "Arundhati Roy" }] },
-  { "name": "Indonesia", "code": "id", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Iran", "code": "ir", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "Persepolis", "developer": "Marjane Satrapi" }] },
-  { "name": "Iraq", "code": "iq", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Ireland", "code": "ie", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Grown Ups", "developer": "Marian Keyes" }, { "title": "Normal People", "developer": "Sally Rooney" }] },
-  { "name": "Israel", "code": "il", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Italy", "code": "it", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Whereabouts", "developer": "Jhumpa Lahiri" }] },
-  { "name": "Jamaica", "code": "jm", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Japan", "code": "jp", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "Convenience Store Woman", "developer": "Sayaka Murata" }, { "title": "Beautiful Shining People", "developer": "Michael Grothaus" }] },
-  { "name": "Jordan", "code": "jo", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Kazakhstan", "code": "kz", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Kenya", "code": "ke", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Kiribati", "code": "ki", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Kuwait", "code": "kw", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Kyrgyzstan", "code": "kg", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Laos", "code": "la", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Latvia", "code": "lv", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Lebanon", "code": "lb", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Lesotho", "code": "ls", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Liberia", "code": "lr", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Libya", "code": "ly", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Liechtenstein", "code": "li", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Lithuania", "code": "lt", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Luxembourg", "code": "lu", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Madagascar", "code": "mg", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Malawi", "code": "mw", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Malaysia", "code": "my", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Maldives", "code": "mv", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Mali", "code": "ml", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Malta", "code": "mt", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Marshall Islands", "code": "mh", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Mauritania", "code": "mr", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Mauritius", "code": "mu", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Mexico", "code": "mx", "type": "country", "continent": "North America", "read": true, "games": [{ "title": "Cosmic Banditos", "developer": "AC Weisbecker" }] },
-  { "name": "Micronesia", "code": "fm", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Moldova", "code": "md", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Monaco", "code": "mc", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Graham Greene", "developer": "Loser Takes All" }] },
-  { "name": "Mongolia", "code": "mn", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Montenegro", "code": "me", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Morocco", "code": "ma", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Mozambique", "code": "mz", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Myanmar", "code": "mm", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Namibia", "code": "na", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Nauru", "code": "nr", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Nepal", "code": "np", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "Beyond Everest", "developer": "Pem Dorjee Sherpa" }] },
-  { "name": "Netherlands", "code": "nl", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "New Zealand", "code": "nz", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Nicaragua", "code": "ni", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Niger", "code": "ne", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Nigeria", "code": "ng", "type": "country", "continent": "Africa", "read": true, "games": [{ "title": "Half of a Yellow Sun", "developer": "Chimamanda Ngozi Adichie" }] },
-  { "name": "North Korea", "code": "kp", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "North Macedonia", "code": "mk", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Norway", "code": "no", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Norse Mythology", "developer": "Neil Gaiman" }] },
-  { "name": "Oman", "code": "om", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Pakistan", "code": "pk", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "Lost to the World", "developer": "Shabaz Taseer" }] },
-  { "name": "Palau", "code": "pw", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Palestine State", "code": "ps", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Panama", "code": "pa", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Papua New Guinea", "code": "pg", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Paraguay", "code": "py", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Peru", "code": "pe", "type": "country", "continent": "South America", "read": true, "games": [{ "title": "Touching the Void", "developer": "Joe Simpson" }] },
-  { "name": "Philippines", "code": "ph", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Poland", "code": "pl", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Portugal", "code": "pt", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Qatar", "code": "qa", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Romania", "code": "ro", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Russia", "code": "ru", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Rwanda", "code": "rw", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Saint Kitts and Nevis", "code": "kn", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Saint Lucia", "code": "lc", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Saint Vincent and the Grenadines", "code": "vc", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Samoa", "code": "ws", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "San Marino", "code": "sm", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Sao Tome and Principe", "code": "st", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Saudi Arabia", "code": "sa", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Senegal", "code": "sn", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Serbia", "code": "rs", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Seychelles", "code": "sc", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Sierra Leone", "code": "sl", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Singapore", "code": "sg", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Slovakia", "code": "sk", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Slovenia", "code": "si", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Solomon Islands", "code": "sb", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Somalia", "code": "so", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "South Korea", "code": "kr", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "Pachinko", "developer": "Min Jin Lee" }] },
-  { "name": "South Africa", "code": "za", "type": "country", "continent": "Africa", "read": true, "games": [{ "title": "Born a Crime", "developer": "Trevor Noah" }] },
-  { "name": "South Sudan", "code": "ss", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Spain", "code": "es", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Sri Lanka", "code": "lk", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Sudan", "code": "sd", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Suriname", "code": "sr", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Sweden", "code": "se", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Beartown", "developer": "Fredrik Backman" }, { "title": "A Man Called Ove", "developer": "Fredrik Backman" }] },
-  { "name": "Switzerland", "code": "ch", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Syria", "code": "sy", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "The Beekeeper of Aleppo", "developer": "Christy Lefteri" }] },
-  { "name": "Taiwan", "code": "tw", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Tajikistan", "code": "tj", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Tanzania", "code": "tz", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Thailand", "code": "th", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Timor-Leste", "code": "tl", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Togo", "code": "tg", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Tonga", "code": "to", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Trinidad and Tobago", "code": "tt", "type": "country", "continent": "North America", "read": false, "games": [] },
-  { "name": "Tunisia", "code": "tn", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Turkey", "code": "tr", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Turkmenistan", "code": "tm", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Tuvalu", "code": "tv", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Uganda", "code": "ug", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Ukraine", "code": "ua", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "United Arab Emirates", "code": "ae", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "United Kingdom", "code": "gb", "type": "country", "continent": "Europe", "read": true, "games": [{ "title": "Thursday Murder Club", "developer": "Richard Osman" }] },
-  { "name": "United States", "code": "us", "type": "country", "continent": "North America", "read": true, "games": [{ "title": "The Secret History", "developer": "Donna Tartt" }, { "title": "There There", "developer": "Tommy Orange" }, { "title": "Where The Crawdads Sing", "developer": "Delia Owens" }] },
-  { "name": "Uruguay", "code": "uy", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Uzbekistan", "code": "uz", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Vanuatu", "code": "vu", "type": "country", "continent": "Oceania", "read": false, "games": [] },
-  { "name": "Vatican City", "code": "va", "type": "country", "continent": "Europe", "read": false, "games": [] },
-  { "name": "Venezuela", "code": "ve", "type": "country", "continent": "South America", "read": false, "games": [] },
-  { "name": "Vietnam", "code": "vn", "type": "country", "continent": "Asia", "read": true, "games": [{ "title": "The Women", "developer": "Kirsten Hannah" }, { "title": "When Heaven and Earth Changed Places", "developer": "Le Ly Hayslip" }] },
-  { "name": "Yemen", "code": "ye", "type": "country", "continent": "Asia", "read": false, "games": [] },
-  { "name": "Zambia", "code": "zm", "type": "country", "continent": "Africa", "read": false, "games": [] },
-  { "name": "Zimbabwe", "code": "zw", "type": "country", "continent": "Africa", "read": false, "games": [] },
-
-  { "name": "England", 
-  "code": "images/england.png", 
-  "type": "territory", 
-  "continent": "Europe", 
-  "read": true, 
-  "games": [{ "title": "The Remains of the Day", "developer": "Kazuo Ishiguro" },
-  { "title": "A Clockwork Orange", "developer": "Anthony Burgess" }] },
-  { "name": "Scotland", 
-  "code": "images/scotland.png", 
-  "type": "territory", 
-  "continent": "Europe", 
-  "read": true, 
-  "games": [{ "title": "Shuggie Bain", "developer": "Douglas Stuart" }] },
-  { "name": "Wales", 
-  "code": "images/wales.png", 
-  "type": "territory", 
-  "continent": "Europe", 
-  "read": false, 
-  "games": [] },
-
+  {
+    "name": "Afghanistan",
+    "code": "af",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Albania",
+    "code": "al",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Algeria",
+    "code": "dz",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Andorra",
+    "code": "ad",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Angola",
+    "code": "ao",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "code": "ag",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Argentina",
+    "code": "ar",
+    "type": "country",
+    "continent": "South America",
+    "read": true,
+    "games": [
+      {
+        "title": "Cities (Buenos Aires)"
+      }
+    ]
+  },
+  {
+    "name": "Armenia",
+    "code": "am",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Australia",
+    "code": "au",
+    "type": "country",
+    "continent": "Oceania",
+    "read": true,
+    "games": [
+      {
+        "title": "Cities (Sydney)"
+      },
+      {
+        "title": "Boomerang: Australia"
+      },
+      {
+        "title": "Dingo's Dreams"
+      },
+      {
+        "title": "Trekking the World (Great Barrier Reef, Uluru, Sydney Opera House)"
+      }
+    ]
+  },
+  {
+    "name": "Austria",
+    "code": "at",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "az",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Bahamas",
+    "code": "bs",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Bahama Taxi"
+      }
+    ]
+  },
+  {
+    "name": "Bahrain",
+    "code": "bh",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Bangladesh",
+    "code": "bd",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Barbados",
+    "code": "bb",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Belarus",
+    "code": "by",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Belgium",
+    "code": "be",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Belize",
+    "code": "bz",
+    "type": "country",
+    "continent": "North America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Benin",
+    "code": "bj",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Bhutan",
+    "code": "bt",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Bolivia",
+    "code": "bo",
+    "type": "country",
+    "continent": "South America",
+    "read": true,
+    "games": [
+      {
+        "title": "Tiwanaku"
+      },
+      {
+        "title": "Trekking the World (Salar de Uyuni)"
+      }
+    ]
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "code": "ba",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Botswana",
+    "code": "bw",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Orapa Mine"
+      }
+    ]
+  },
+  {
+    "name": "Brazil",
+    "code": "br",
+    "type": "country",
+    "continent": "South America",
+    "read": true,
+    "games": [
+      {
+        "title": "Cities (Rio de Janiero)"
+      },
+      {
+        "title": "Malabares"
+      }
+    ]
+  },
+  {
+    "name": "Brunei",
+    "code": "bn",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Bulgaria",
+    "code": "bg",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "bf",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Burundi",
+    "code": "bi",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Cabo Verde",
+    "code": "cv",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Cambodia",
+    "code": "kh",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Trekking the World (Angkor Wat)"
+      }
+    ]
+  },
+  {
+    "name": "Cameroon",
+    "code": "cm",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Canada",
+    "code": "ca",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Fleet"
+      },
+      {
+        "title": "Niagara"
+      },
+      {
+        "title": "Okanagan"
+      },
+      {
+        "title": "Quadrata Canada"
+      },
+      {
+        "title": "Trekking the World (Banff)"
+      }
+    ]
+  },
+  {
+    "name": "Central African Republic",
+    "code": "cf",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Chad",
+    "code": "td",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Chile",
+    "code": "cl",
+    "type": "country",
+    "continent": "South America",
+    "read": true,
+    "games": [
+      {
+        "title": "Trekking the World (Torres del Paine)"
+      }
+    ]
+  },
+  {
+    "name": "China",
+    "code": "cn",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "In The Year of The Dragon"
+      },
+      {
+        "title": "Takenoko"
+      }
+    ]
+  },
+  {
+    "name": "Colombia",
+    "code": "co",
+    "type": "country",
+    "continent": "South America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (Santa Marta, Cartagena)"
+      }
+    ]
+  },
+  {
+    "name": "Comoros",
+    "code": "km",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Congo (Congo-Brazzaville)",
+    "code": "cg",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Congo (Congo-Kinshasa)",
+    "code": "cd",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Costa Rica",
+    "code": "cr",
+    "type": "country",
+    "continent": "North America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "code": "ci",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Croatia",
+    "code": "hr",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Cuba",
+    "code": "cu",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (Camarco, Havana, Santiago)"
+      }
+    ]
+  },
+  {
+    "name": "Cyprus",
+    "code": "cy",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Czechia",
+    "code": "cz",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Denmark",
+    "code": "dk",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Copenhagen"
+      },
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "Djibouti",
+    "code": "dj",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Dominica",
+    "code": "dm",
+    "type": "country",
+    "continent": "North America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "do",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (Puerto Plata)"
+      }
+    ]
+  },
+  {
+    "name": "Ecuador",
+    "code": "ec",
+    "type": "country",
+    "continent": "South America",
+    "read": true,
+    "games": [
+      {
+        "title": "Darwin's Journey (Galapagos Islands)"
+      },
+      {
+        "title": "Trekking the World (Galapagos Islands)"
+      }
+    ]
+  },
+  {
+    "name": "Egypt",
+    "code": "eg",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Imhotep"
+      },
+      {
+        "title": "Luxor"
+      },
+      {
+        "title": "Nile"
+      },
+      {
+        "title": "Sobek"
+      },
+      {
+        "title": "Sobek two players"
+      },
+      {
+        "title": "Roll to the Top (Pyramid at Giza)"
+      }
+    ]
+  },
+  {
+    "name": "El Salvador",
+    "code": "sv",
+    "type": "country",
+    "continent": "North America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Equatorial Guinea",
+    "code": "gq",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Eritrea",
+    "code": "er",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Estonia",
+    "code": "ee",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Eswatini",
+    "code": "sz",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Ethiopia",
+    "code": "et",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Fiji",
+    "code": "fj",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Finland",
+    "code": "fi",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "France",
+    "code": "fr",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Carcassonne"
+      },
+      {
+        "title": "Castles of Burgundy"
+      },
+      {
+        "title": "Get on Board Paris Rome"
+      },
+      {
+        "title": "Fromage"
+      },
+      {
+        "title": "Oriflamme"
+      },
+      {
+        "title": "Roll to the Top (Eiffel Tower)"
+      }
+    ]
+  },
+  {
+    "name": "Gabon",
+    "code": "ga",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Gambia",
+    "code": "gm",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Georgia",
+    "code": "ge",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Germany",
+    "code": "de",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Thurn and Taxis"
+      }
+    ]
+  },
+  {
+    "name": "Ghana",
+    "code": "gh",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Greece",
+    "code": "gr",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Akropolis"
+      },
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Santorini"
+      }
+    ]
+  },
+  {
+    "name": "Grenada",
+    "code": "gd",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Guatemala",
+    "code": "gt",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Tikal"
+      },
+      {
+        "title": "Yaxha"
+      }
+    ]
+  },
+  {
+    "name": "Guinea",
+    "code": "gn",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Guinea-Bissau",
+    "code": "gw",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Guyana",
+    "code": "gy",
+    "type": "country",
+    "continent": "South America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Haiti",
+    "code": "ht",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (Petit Goave, Tortuga)"
+      }
+    ]
+  },
+  {
+    "name": "Honduras",
+    "code": "hn",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (La Ceiba)"
+      }
+    ]
+  },
+  {
+    "name": "Hungary",
+    "code": "hu",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Iceland",
+    "code": "is",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Karvi"
+      },
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "India",
+    "code": "in",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Biomes of Nilgiris"
+      },
+      {
+        "title": "Go Goa"
+      },
+      {
+        "title": "Jaipur"
+      }
+    ]
+  },
+  {
+    "name": "Indonesia",
+    "code": "id",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Hutan"
+      },
+      {
+        "title": "Trekking the World (Borobudur)"
+      }
+    ]
+  },
+  {
+    "name": "Iran",
+    "code": "ir",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Iraq",
+    "code": "iq",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Assyria"
+      },
+      {
+        "title": "Tigris & Euphrates"
+      }
+    ]
+  },
+  {
+    "name": "Ireland",
+    "code": "ie",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Irish Gauge"
+      },
+      {
+        "title": "Karvi"
+      },
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "Israel",
+    "code": "il",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Italy",
+    "code": "it",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Amalfi"
+      },
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Cities (Venice)"
+      },
+      {
+        "title": "Ponte del Diavolo"
+      },
+      {
+        "title": "Get on Board Paris Rome"
+      },
+      {
+        "title": "Roll to the Top (Matterhorn)"
+      },
+      {
+        "title": "Verona Twist"
+      },
+      {
+        "title": "Viticulture"
+      }
+    ]
+  },
+  {
+    "name": "Jamaica",
+    "code": "jm",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (Port Royal)"
+      },
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Japan",
+    "code": "jp",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Let's Go To Japan"
+      },
+      {
+        "title": "King of Tokyo"
+      },
+      {
+        "title": "Kokeshi"
+      },
+      {
+        "title": "White Castle"
+      }
+    ]
+  },
+  {
+    "name": "Jordan",
+    "code": "jo",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "kz",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Kenya",
+    "code": "ke",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Elongo"
+      }
+    ]
+  },
+  {
+    "name": "Kiribati",
+    "code": "ki",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Kuwait",
+    "code": "kw",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Kyrgyzstan",
+    "code": "kg",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Laos",
+    "code": "la",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Latvia",
+    "code": "lv",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Lebanon",
+    "code": "lb",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Lesotho",
+    "code": "ls",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Liberia",
+    "code": "lr",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Libya",
+    "code": "ly",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Liechtenstein",
+    "code": "li",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Lithuania",
+    "code": "lt",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "code": "lu",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Madagascar",
+    "code": "mg",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Malawi",
+    "code": "mw",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Malaysia",
+    "code": "my",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Maldives",
+    "code": "mv",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Mali",
+    "code": "ml",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Caravan (Arawan, Jenne, Timbuktu)"
+      }
+    ]
+  },
+  {
+    "name": "Malta",
+    "code": "mt",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Marshall Islands",
+    "code": "mh",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Mauritania",
+    "code": "mr",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Caravan (Walata)"
+      }
+    ]
+  },
+  {
+    "name": "Mauritius",
+    "code": "mu",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Mexico",
+    "code": "mx",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Cities (Mexico City)"
+      },
+      {
+        "title": "Teotihuacan"
+      },
+      {
+        "title": "Trekking the World (Chichen Itza, Teotihuacán)"
+      },
+      {
+        "title": "Viva Catrina"
+      }
+    ]
+  },
+  {
+    "name": "Micronesia",
+    "code": "fm",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Moldova",
+    "code": "md",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Monaco",
+    "code": "mc",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Mongolia",
+    "code": "mn",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Montenegro",
+    "code": "me",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Morocco",
+    "code": "ma",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Caravan (Marrakesh)"
+      },
+      {
+        "title": "Marrakesh"
+      },
+      {
+        "title": "Medina"
+      }
+    ]
+  },
+  {
+    "name": "Mozambique",
+    "code": "mz",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Myanmar",
+    "code": "mm",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Trekking the World (Bagan Temples)"
+      }
+    ]
+  },
+  {
+    "name": "Namibia",
+    "code": "na",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Nauru",
+    "code": "nr",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Nepal",
+    "code": "np",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Trek 12 (standard maps)"
+      }
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "code": "nl",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Gift of Tulips"
+      }
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "code": "nz",
+    "type": "country",
+    "continent": "Oceania",
+    "read": true,
+    "games": [
+      {
+        "title": "Trekking the World (Milford Sound)"
+      }
+    ]
+  },
+  {
+    "name": "Nicaragua",
+    "code": "ni",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (Bluefields, Puerto Cabezas)"
+      }
+    ]
+  },
+  {
+    "name": "Niger",
+    "code": "ne",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Caravan (Adagez)"
+      }
+    ]
+  },
+  {
+    "name": "Nigeria",
+    "code": "ng",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "North Korea",
+    "code": "kp",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "North Macedonia",
+    "code": "mk",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Norway",
+    "code": "no",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Karvi"
+      },
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "Oman",
+    "code": "om",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Pakistan",
+    "code": "pk",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "K2"
+      },
+      {
+        "title": "Nanga Parbat"
+      }
+    ]
+  },
+  {
+    "name": "Palau",
+    "code": "pw",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Palestine State",
+    "code": "ps",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Panama",
+    "code": "pa",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (Portobelo)"
+      }
+    ]
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "pg",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Paraguay",
+    "code": "py",
+    "type": "country",
+    "continent": "South America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Peru",
+    "code": "pe",
+    "type": "country",
+    "continent": "South America",
+    "read": true,
+    "games": [
+      {
+        "title": "Trekking the World (Machu Picchu)"
+      }
+    ]
+  },
+  {
+    "name": "Philippines",
+    "code": "ph",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Poland",
+    "code": "pl",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Portugal",
+    "code": "pt",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Azul"
+      },
+      {
+        "title": "Azul: Duel"
+      },
+      {
+        "title": "Azul: Summer Pavilion"
+      },
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Cities (Lisbon)"
+      }
+    ]
+  },
+  {
+    "name": "Qatar",
+    "code": "qa",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Romania",
+    "code": "ro",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Russia",
+    "code": "ru",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "St Petersburg"
+      }
+    ]
+  },
+  {
+    "name": "Rwanda",
+    "code": "rw",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "code": "kn",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Saint Lucia",
+    "code": "lc",
+    "type": "country",
+    "continent": "North America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "code": "vc",
+    "type": "country",
+    "continent": "North America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Samoa",
+    "code": "ws",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "San Marino",
+    "code": "sm",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "code": "st",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "sa",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Senegal",
+    "code": "sn",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Caravan (Awlil)"
+      }
+    ]
+  },
+  {
+    "name": "Serbia",
+    "code": "rs",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Seychelles",
+    "code": "sc",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "sl",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Singapore",
+    "code": "sg",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Roll to the Top (Marina Bay Sands)"
+      }
+    ]
+  },
+  {
+    "name": "Slovakia",
+    "code": "sk",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "code": "si",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      }
+    ]
+  },
+  {
+    "name": "Solomon Islands",
+    "code": "sb",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Somalia",
+    "code": "so",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "South Korea",
+    "code": "kr",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "South Africa",
+    "code": "za",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Rallyman (Kyalama)"
+      }
+    ]
+  },
+  {
+    "name": "South Sudan",
+    "code": "ss",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Spain",
+    "code": "es",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Alhambra"
+      },
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Cities (Barcelona)"
+      }
+    ]
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "lk",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Sudan",
+    "code": "sd",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Suriname",
+    "code": "sr",
+    "type": "country",
+    "continent": "South America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Sweden",
+    "code": "se",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Fika"
+      },
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "Switzerland",
+    "code": "ch",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Roll to the Top (Matterhorn)"
+      },
+      {
+        "title": "Ticket to Ride (Switzerland)"
+      }
+    ]
+  },
+  {
+    "name": "Syria",
+    "code": "sy",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Taiwan",
+    "code": "tw",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Tajikistan",
+    "code": "tj",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Tanzania",
+    "code": "tz",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Thailand",
+    "code": "th",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Siam"
+      }
+    ]
+  },
+  {
+    "name": "Timor-Leste",
+    "code": "tl",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Togo",
+    "code": "tg",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Tonga",
+    "code": "to",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "code": "tt",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      },
+      {
+        "title": "Tobago"
+      }
+    ]
+  },
+  {
+    "name": "Tunisia",
+    "code": "tn",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Turkey",
+    "code": "tr",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Turkmenistan",
+    "code": "tm",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Tuvalu",
+    "code": "tv",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Uganda",
+    "code": "ug",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Rift Valley Reserve"
+      }
+    ]
+  },
+  {
+    "name": "Ukraine",
+    "code": "ua",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "ae",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "United Kingdom",
+    "code": "gb",
+    "type": "country",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: Europe"
+      },
+      {
+        "title": "Karvi"
+      }
+    ]
+  },
+  {
+    "name": "United States",
+    "code": "us",
+    "type": "country",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Boomerang: USA"
+      },
+      {
+        "title": "Cities (New York)"
+      },
+      {
+        "title": "Get on Board (New York)"
+      },
+      {
+        "title": "Gold West"
+      },
+      {
+        "title": "Great Western Trai"
+      },
+      {
+        "title": "Great Western Trail: El Paso"
+      },
+      {
+        "title": "Lewis & Clark"
+      },
+      {
+        "title": "Niagara"
+      },
+      {
+        "title": "On Tour"
+      },
+      {
+        "title": "Pioneer Days"
+      },
+      {
+        "title": "Roll to the Top (Half Dome, Yosemite)"
+      },
+      {
+        "title": "Rolled West"
+      },
+      {
+        "title": "Streetcar"
+      },
+      {
+        "title": "The Mother Road"
+      },
+      {
+        "title": "Trekking the World (various)"
+      },
+      {
+        "title": "Welcome to Las Vegas"
+      }
+    ]
+  },
+  {
+    "name": "Uruguay",
+    "code": "uy",
+    "type": "country",
+    "continent": "South America",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "uz",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Khiva"
+      },
+      {
+        "title": "Samarkand"
+      }
+    ]
+  },
+  {
+    "name": "Vanuatu",
+    "code": "vu",
+    "type": "country",
+    "continent": "Oceania",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Vatican City",
+    "code": "va",
+    "type": "country",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Venezuela",
+    "code": "ve",
+    "type": "country",
+    "continent": "South America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo (Caracas, Cumana, Maracaibo)"
+      },
+      {
+        "title": "Trekking the World (Angel Falls)"
+      }
+    ]
+  },
+  {
+    "name": "Vietnam",
+    "code": "vn",
+    "type": "country",
+    "continent": "Asia",
+    "read": true,
+    "games": [
+      {
+        "title": "Fai Fo"
+      },
+      {
+        "title": "Hoi Pho"
+      },
+      {
+        "title": "Trekking the World (Ha Long Bay)"
+      }
+    ]
+  },
+  {
+    "name": "Yemen",
+    "code": "ye",
+    "type": "country",
+    "continent": "Asia",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Zambia",
+    "code": "zm",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Livingstone"
+      }
+    ]
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "zw",
+    "type": "country",
+    "continent": "Africa",
+    "read": true,
+    "games": [
+      {
+        "title": "Livingstone"
+      }
+    ]
+  },
+  {
+    "name": "England",
+    "code": "images/england.png",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Get on Board (London)"
+      },
+      {
+        "title": "Roll to the Top (Major Oak)"
+      },
+      {
+        "title": "Next Station: London"
+      },
+      {
+        "title": "Mr. Jack"
+      }
+    ]
+  },
+  {
+    "name": "Scotland",
+    "code": "images/scotland.png",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "Wales",
+    "code": "images/wales.png",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Rallyman"
+      },
+      {
+        "title": "Marco Polo"
+      },
+      {
+        "title": "Trekking the World"
+      },
+      {
+        "title": "Pax Pamir"
+      },
+      {
+        "title": "Expeditions"
+      }
+    ]
+  },
   {
     "name": "Isles of Scilly",
     "code": "images/scilly.png",
     "type": "territory",
     "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Congo",
+    "code": "",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "code": "",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "United Republic of Tanzania",
+    "code": "",
+    "type": "country",
+    "continent": "Africa",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Aruba",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
     "read": true,
     "games": [
-      { "title": "Devil's Table", "developer": "Kate Rhodes" }, 
-      { "title": "Scilly Sergeant", "developer": "Colin Taylor" }
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Bonaire",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Curacao",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Faroe Islands",
+    "code": "",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Karvi (Tórshavn)"
+      }
+    ]
+  },
+  {
+    "name": "Greenland",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Norsemen"
+      },
+      {
+        "title": "Northwest Passage"
+      }
+    ]
+  },
+  {
+    "name": "Guadeloupe",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Hawaii"
+      }
+    ]
+  },
+  {
+    "name": "Majorca",
+    "code": "",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Finca"
+      }
+    ]
+  },
+  {
+    "name": "Martinique",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Montserrat",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Pirates of Maracaibo"
+      }
+    ]
+  },
+  {
+    "name": "Normandy",
+    "code": "",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Norsemen"
+      }
+    ]
+  },
+  {
+    "name": "Northern Ireland",
+    "code": "",
+    "type": "territory",
+    "continent": "Europe",
+    "read": false,
+    "games": []
+  },
+  {
+    "name": "Orkney Islands",
+    "code": "",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Karvi (Pierowall)"
+      }
+    ]
+  },
+  {
+    "name": "Puerto Rico",
+    "code": "",
+    "type": "territory",
+    "continent": "North America",
+    "read": true,
+    "games": [
+      {
+        "title": "Maracaibo"
+      },
+      {
+        "title": "Pirates of Maracaibo"
+      },
+      {
+        "title": "Puerto Rico"
+      }
+    ]
+  },
+  {
+    "name": "Shetland Islands",
+    "code": "",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Karvi (Jarlshof, Underhoull)"
+      }
+    ]
+  },
+  {
+    "name": "Sicily",
+    "code": "",
+    "type": "territory",
+    "continent": "Europe",
+    "read": true,
+    "games": [
+      {
+        "title": "Norsemen"
+      }
     ]
   }
 ]
