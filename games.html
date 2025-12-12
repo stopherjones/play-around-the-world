@@ -15,7 +15,10 @@
     </div>
 
     <p class="subtitle">A complete list of games organized by country</p>
-    <p class="subtitle">Games marked with an asterisk (*) do not have that country as a primary focus - see <a href="about.html">about</a> for more info.</p>
+    <p class="subtitle">
+        Games marked with an asterisk (*) do not have that country as a primary focus –
+        see <a href="about.html">about</a> for more info.
+    </p>
 
     <!-- Sticky Nav Bar -->
     <nav class="filter-bar">
@@ -24,8 +27,6 @@
             <label for="searchInput">Search</label>
             <input type="text" id="searchInput" placeholder="Find a country...">
         </div>
-
-        
 
         <div class="filter-group">
             <label for="continentFilter">Continent</label>
@@ -39,7 +40,6 @@
                 <option value="Oceania">Oceania</option>
             </select>
         </div>
-
     </nav>
 
     <div class="container">
@@ -53,117 +53,108 @@
             .then(res => res.json())
             .then(data => {
                 countriesData = data;
-                rendergames();
+                renderGames();
                 updateStats(data);
             });
 
         function updateStats(data) {
-            // Count total games and read countries
-            const totalgames = data.reduce((sum, c) => sum + (c.games ? c.games.length : 0), 0);
+            const totalGames = data.reduce((sum, c) => sum + (c.games ? c.games.length : 0), 0);
             const readCountries = data.filter(c => c.read).length;
             const totalCountries = data.filter(c => c.type === 'country').length;
-            
+
             const statText = document.getElementById("statText");
             if (statText) {
-                statText.textContent = `${totalgames} games in ${readCountries} of ${totalCountries} countries`;
+                statText.textContent = `${totalGames} games in ${readCountries} of ${totalCountries} countries`;
             }
         }
 
-        // Attach filter listeners so the nav controls update the list
-        const searchEl = document.getElementById('searchInput');
-        const continentEl = document.getElementById('continentFilter');
-        if (searchEl) searchEl.addEventListener('input', rendergames);
-        if (continentEl) continentEl.addEventListener('change', rendergames);
+        document.getElementById('searchInput').addEventListener('input', renderGames);
+        document.getElementById('continentFilter').addEventListener('change', renderGames);
 
-        function rendergames() {
+        function renderGames() {
             const gamesList = document.getElementById("gamesList");
             gamesList.innerHTML = "";
 
-            // Apply search + continent filters to read countries/territories with games
-            const search = (document.getElementById('searchInput') && document.getElementById('searchInput').value) ? document.getElementById('searchInput').value.toLowerCase() : '';
-            const continent = (document.getElementById('continentFilter') && document.getElementById('continentFilter').value) ? document.getElementById('continentFilter').value : 'all';
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const continent = document.getElementById('continentFilter').value;
 
-            const readItems = countriesData.filter(c =>
-                c.read && c.games && c.games.length > 0 &&
+            const filtered = countriesData.filter(c =>
+                c.read &&
+                c.games?.length > 0 &&
                 (search === '' || c.name.toLowerCase().includes(search)) &&
                 (continent === 'all' || c.continent === continent)
             );
 
-            if (readItems.length === 0) {
+            if (filtered.length === 0) {
                 gamesList.innerHTML = '<div class="empty-state">No games recorded yet.</div>';
                 return;
             }
 
-            const countries = readItems.filter(c => c.type === 'country');
-            const territories = readItems.filter(c => c.type === 'territory');
+            const countries = filtered.filter(c => c.type === 'country');
+            const territories = filtered.filter(c => c.type === 'territory');
 
-            function renderSection(title, items) {
-                if (!items || items.length === 0) return;
+            function renderCountryGroup(country) {
+                const block = document.createElement('div');
+                block.classList.add('country-block');
+
                 const heading = document.createElement('div');
                 heading.classList.add('section-title');
-                heading.textContent = title;
-                gamesList.appendChild(heading);
+                heading.textContent = country.name;
+                block.appendChild(heading);
 
-                items.forEach(country => {
-                    country.games.forEach(game => {
-                        const item = document.createElement("div");
-                        item.classList.add("game-item");
+                country.games.forEach(game => {
+                    const item = document.createElement("div");
+                    item.classList.add("game-item");
 
-                        // Flag thumbnail
-                        const flagDiv = document.createElement("div");
-                        flagDiv.classList.add("flag-thumbnail");
+                    const flagDiv = document.createElement("div");
+                    flagDiv.classList.add("flag-thumbnail");
 
-                        const img = document.createElement("img");
-                        if (country.code.includes("/") || country.code.startsWith("http")) {
-                            img.src = country.code;
-                        } else {
-                            img.src = `https://flagcdn.com/w640/${country.code}.png`;
-                        }
-                        img.alt = `Flag of ${country.name}`;
-                        flagDiv.appendChild(img);
+                    const img = document.createElement("img");
+                    img.src = country.code.includes("/") || country.code.startsWith("http")
+                        ? country.code
+                        : `https://flagcdn.com/w640/${country.code}.png`;
+                    img.alt = `Flag of ${country.name}`;
+                    flagDiv.appendChild(img);
 
-                        // game details
-                        const details = document.createElement("div");
-                        details.classList.add("game-details");
+                    const details = document.createElement("div");
+                    details.classList.add("game-details");
 
-                        const countryName = document.createElement("div");
-                        countryName.classList.add("country-name");
-                        countryName.textContent = country.name;
-                        details.appendChild(countryName);
+                    const title = document.createElement("div");
+                    title.classList.add("game-title");
 
-                        const title = document.createElement("div");
-title.classList.add("game-title");
+                    const titleWithoutBrackets = game.title.replace(/\s*\(.*?\)\s*/g, "");
 
-// Build BGA slug
-const titleWithoutBrackets = game.title.replace(/\s*\(.*?\)\s*/g, "");
-const slug = titleWithoutBrackets
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "");
+                    const slug = titleWithoutBrackets.toLowerCase().replace(/[^a-z0-9]+/g, "");
+                    const url = `https://boardgamearena.com/gamepanel?game=${slug}`;
 
-const url = `https://boardgamearena.com/gamepanel?game=${slug}`;
+                    title.innerHTML = `
+                        <span class="title-text">${game.title}</span><br>
+                        <a href="${url}" target="_blank" class="game-url">${url}</a>
+                    `;
+                    details.appendChild(title);
 
-// Title on first line, URL on second line
-title.innerHTML = `
-    <span class="title-text">${game.title}</span><br>
-    <a href="${url}" target="_blank" class="game-url">${url}</a>
-`;
-
-details.appendChild(title);
-
-
-                        const developer = document.createElement("div");
-                        developer.classList.add("game-developer");
-                        details.appendChild(developer);
-
-                        item.appendChild(flagDiv);
-                        item.appendChild(details);
-                        gamesList.appendChild(item);
-                    });
+                    item.appendChild(flagDiv);
+                    item.appendChild(details);
+                    block.appendChild(item);
                 });
+
+                gamesList.appendChild(block);
             }
 
-            renderSection('Countries', countries);
-            renderSection('Other regions and territories', territories);
+            function renderGroup(title, items) {
+                if (items.length === 0) return;
+
+                const label = document.createElement('div');
+                label.classList.add('section-title');
+                label.textContent = title;
+                gamesList.appendChild(label);
+
+                items.forEach(renderCountryGroup);
+            }
+
+            renderGroup("Countries", countries);
+            renderGroup("Other regions and territories", territories);
+
             updateStats(countriesData);
         }
     </script>
