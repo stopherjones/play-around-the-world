@@ -7,7 +7,7 @@
     "read": true,
     "games": [
       {
-        "title": "Marco Polo II (Balkh, Kabul)"
+        "title": "* Marco Polo two (Balkh, Kabul)"
       }
     ]
   },
@@ -27,7 +27,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Timgad)"
+        "title": "* Expeditions (Timgad)"
       }
     ]
   },
@@ -55,7 +55,7 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -96,16 +96,16 @@
         "title": "Dingo's Dreams"
       },
       {
-        "title": "Expeditions (various)"
-      },
-      {
         "title": "Railways of the World"
       },
       {
-        "title": "RallymanGT (Adelaide, Albert Park, Mount Panorama)"
+        "title": "* Expeditions (various)"
       },
       {
-        "title": "Trekking the World (Great Barrier Reef, Uluru, Sydney Opera House)"
+        "title": "* RallymanGT (Adelaide, Albert Park, Mount Panorama)"
+      },
+      {
+        "title": "* Trekking the World (Great Barrier Reef, Uluru, Sydney Opera House)"
       }
     ]
   },
@@ -117,16 +117,16 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Railways of the World (Europe)"
       },
       {
-        "title": "RallymanGT (Red Bull Ring)"
+        "title": "* RallymanGT (Red Bull Ring)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -138,7 +138,7 @@
     "read": true,
     "games": [
       {
-        "title": "RallymanGT (Baku)"
+        "title": "* RallymanGT (Baku)"
       }
     ]
   },
@@ -162,7 +162,7 @@
     "read": true,
     "games": [
       {
-        "title": "RallymanGT"
+        "title": "* RallymanGT"
       }
     ]
   },
@@ -182,7 +182,7 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -194,7 +194,7 @@
     "read": true,
     "games": [
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Railways of the World (Europe)"
       }
     ]
   },
@@ -206,13 +206,13 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "RallymanGT (Spa, Zolder)"
+        "title": "* RallymanGT (Spa, Zolder)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -251,7 +251,7 @@
         "title": "Tiwanaku"
       },
       {
-        "title": "Trekking the World (Salar de Uyuni)"
+        "title": "* Trekking the World (Salar de Uyuni)"
       }
     ]
   },
@@ -263,7 +263,7 @@
     "read": true,
     "games": [
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -290,13 +290,13 @@
         "title": "Cities (Rio de Janiero)"
       },
       {
-        "title": "Expeditions (various)"
-      },
-      {
         "title": "Malabares"
       },
       {
-        "title": "RallymanGT (Interlagos)"
+        "title": "* Expeditions (various)"
+      },
+      {
+        "title": "* RallymanGT (Interlagos)"
       }
     ]
   },
@@ -316,10 +316,10 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -355,10 +355,10 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions Angkor Wat()"
+        "title": "* Expeditions Angkor Wat()"
       },
       {
-        "title": "Trekking the World (Angkor Wat)"
+        "title": "* Trekking the World (Angkor Wat)"
       }
     ]
   },
@@ -370,7 +370,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Douala)"
+        "title": "* Expeditions (Douala)"
       }
     ]
   },
@@ -381,9 +381,6 @@
     "code": "ca",
     "read": true,
     "games": [
-      {
-        "title": "Expeditions (various)"
-      },
       {
         "title": "Fleet"
       },
@@ -400,13 +397,16 @@
         "title": "Quadrata Canada"
       },
       {
-        "title": "RallymanGT (Montreal, Mosport Park)"
+        "title": "* Expeditions (various)"
       },
       {
-        "title": "Ticket to Ride"
+        "title": "* RallymanGT (Montreal, Mosport Park)"
       },
       {
-        "title": "Trekking the World (Banff)"
+        "title": "* Ticket to Ride (USA)"
+      },
+      {
+        "title": "* Trekking the World (Banff)"
       }
     ]
   },
@@ -434,10 +434,10 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Atacama,Tierra del Fuego)"
+        "title": "* Expeditions (Atacama,Tierra del Fuego)"
       },
       {
-        "title": "Trekking the World (Torres del Paine)"
+        "title": "* Trekking the World (Torres del Paine)"
       }
     ]
   },
@@ -449,25 +449,25 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Great Wall, Xian)"
-      },
-      {
         "title": "In The Year of The Dragon"
-      },
-      {
-        "title": "Marco Polo (Beijing, Kashgar, Lan-Zhou, Xian)"
-      },
-      {
-        "title": "Marco Polo II (various)"
-      },
-      {
-        "title": "RallymanGT (Shanghai)"
       },
       {
         "title": "Takenoko"
       },
       {
-        "title": "Ultimate Railroads"
+        "title": "* Expeditions (Great Wall, Xian)"
+      },
+      {
+        "title": "* Marco Polo (Beijing, Kashgar, Lan-Zhou, Xian)"
+      },
+      {
+        "title": "* Marco Polo two (various)"
+      },
+      {
+        "title": "* RallymanGT (Shanghai)"
+      },
+      {
+        "title": "* Ultimate Railroads"
       }
     ]
   },
@@ -479,7 +479,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo (Santa Marta, Cartagena)"
+        "title": "* Maracaibo (Santa Marta, Cartagena)"
       }
     ]
   },
@@ -523,10 +523,10 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -538,7 +538,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo (Camarco, Havana, Santiago)"
+        "title": "* Maracaibo (Camarco, Havana, Santiago)"
       }
     ]
   },
@@ -558,16 +558,16 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
-      },
-      {
-        "title": "Railways of the World (Europe)"
-      },
-      {
         "title": "Praga"
       },
       {
-        "title": "RallymanGT (Brno, Most)"
+        "title": "* Boomerang: Europe"
+      },
+      {
+        "title": "* Railways of the World (Europe)"
+      },
+      {
+        "title": "* RallymanGT (Brno, Most)"
       }
     ]
   },
@@ -579,7 +579,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Virunga)"
+        "title": "* Expeditions (Virunga)"
       }
     ]
   },
@@ -591,19 +591,19 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Copenhagen"
       },
       {
-        "title": "Norsemen"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Norsemen"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Railways of the World (Europe)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -631,7 +631,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo (Puerto Plata)"
+        "title": "* Maracaibo (Puerto Plata)"
       }
     ]
   },
@@ -646,10 +646,10 @@
         "title": "Darwin's Journey (Galapagos Islands)"
       },
       {
-        "title": "Expeditions (Galapagos)"
+        "title": "* Expeditions (Galapagos)"
       },
       {
-        "title": "Trekking the World (Galapagos Islands)"
+        "title": "* Trekking the World (Galapagos Islands)"
       }
     ]
   },
@@ -661,16 +661,10 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Giza)"
-      },
-      {
         "title": "Imhotep"
       },
       {
         "title": "Luxor"
-      },
-      {
-        "title": "Marco Polo (Alexandria)"
       },
       {
         "title": "Nile"
@@ -685,7 +679,13 @@
         "title": "Roll to the Top (Pyramid at Giza)"
       },
       {
-        "title": "Trekking the World (Pyramids at Giza)"
+        "title": "* Expeditions (Giza)"
+      },
+      {
+        "title": "* Marco Polo (Alexandria)"
+      },
+      {
+        "title": "* Trekking the World (Pyramids at Giza)"
       }
     ]
   },
@@ -721,7 +721,7 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       }
     ]
   },
@@ -757,10 +757,10 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "RallymanGT (Kymiring)"
+        "title": "* RallymanGT (Kymiring)"
       }
     ]
   },
@@ -773,9 +773,6 @@
     "games": [
       {
         "title": "Bohemians"
-      },
-      {
-        "title": "Boomerang: Europe"
       },
       {
         "title": "Carcassonne"
@@ -793,9 +790,6 @@
         "title": "Get on Board Paris Rome"
       },
       {
-        "title": "Heat"
-      },
-      {
         "title": "Next Station: Paris"
       },
       {
@@ -805,19 +799,25 @@
         "title": "Orleans"
       },
       {
-        "title": "Railways of the World (Europe)"
-      },
-      {
-        "title": "RallymanGT (Magny-Cours, Nogaro, Paul Ricard)"
-      },
-      {
         "title": "Roll to the Top (Eiffel Tower)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Trekking the World (Eiffel Tower)"
+        "title": "* Heat"
+      },
+      {
+        "title": "* Railways of the World (Europe)"
+      },
+      {
+        "title": "* RallymanGT (Magny-Cours, Nogaro, Paul Ricard)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
+      },
+      {
+        "title": "* Trekking the World (Eiffel Tower)"
       }
     ]
   },
@@ -853,25 +853,25 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Castle of Mad King Ludwig"
-      },
-      {
-        "title": "RallymanGT (Hockenheimring, Lausitzring, Norisring, Nurburgring, Oschersleben, Sachsenring)"
-      },
-      {
-        "title": "Railways of the World (Europe)"
       },
       {
         "title": "Thurn and Taxis"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Ultimate Railroads"
+        "title": "* RallymanGT (Hockenheimring, Lausitzring, Norisring, Nurburgring, Oschersleben, Sachsenring)"
+      },
+      {
+        "title": "* Railways of the World (Europe)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
+      },
+      {
+        "title": "* Ultimate Railroads"
       }
     ]
   },
@@ -883,7 +883,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Elmina)"
+        "title": "* Expeditions (Elmina)"
       }
     ]
   },
@@ -898,22 +898,22 @@
         "title": "Akropolis"
       },
       {
-        "title": "Boomerang: Europe"
-      },
-      {
-        "title": "Expeditions (Athens)"
-      },
-      {
-        "title": "Railways of the World (Europe)"
-      },
-      {
         "title": "Santorini"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Trekking the Word (Acropolis)"
+        "title": "* Expeditions (Athens)"
+      },
+      {
+        "title": "* Railways of the World (Europe)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
+      },
+      {
+        "title": "* Trekking the Word (Acropolis)"
       }
     ]
   },
@@ -925,7 +925,7 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -937,13 +937,13 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Tikal)"
-      },
-      {
         "title": "Tikal"
       },
       {
         "title": "Yaxha"
+      },
+      {
+        "title": "* Expeditions (Tikal)"
       }
     ]
   },
@@ -979,7 +979,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo (Petit Goave, Tortuga)"
+        "title": "* Maracaibo (Petit Goave, Tortuga)"
       }
     ]
   },
@@ -991,7 +991,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo (La Ceiba)"
+        "title": "* Maracaibo (La Ceiba)"
       }
     ]
   },
@@ -1003,19 +1003,19 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Railways of the World (Europe)"
       },
       {
-        "title": "RallymanGT (Hungaroring)"
+        "title": "* RallymanGT (Hungaroring)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       },
       {
-        "title": "Trekking the World (Fisherman's Bastion)"
+        "title": "* Trekking the World (Fisherman's Bastion)"
       }
     ]
   },
@@ -1027,16 +1027,16 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Expeditions (Thingvellir)"
+        "title": "* Expeditions (Thingvellir)"
       },
       {
-        "title": "Karvi"
+        "title": "* Karvi"
       },
       {
-        "title": "Norsemen"
+        "title": "* Norsemen"
       }
     ]
   },
@@ -1051,7 +1051,7 @@
         "title": "Biomes of Nilgiris"
       },
       {
-        "title": "Expeditions (Taj Mahal)"
+        "title": "* Expeditions (Taj Mahal)"
       },
       {
         "title": "Go Goa"
@@ -1060,7 +1060,7 @@
         "title": "Jaipur"
       },
       {
-        "title": "Marco Polo II (Jaipur)"
+        "title": "* Marco Polo two (Jaipur)"
       },
       {
         "title": "Movers and Shakers"
@@ -1078,16 +1078,16 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Borobudur, Sulawesi)"
+        "title": "* Expeditions (Borobudur, Sulawesi)"
       },
       {
         "title": "Hutan"
       },
       {
-        "title": "Marco Polo (Sumatra)"
+        "title": "* Marco Polo (Sumatra)"
       },
       {
-        "title": "Trekking the World (Borobudur)"
+        "title": "* Trekking the World (Borobudur)"
       }
     ]
   },
@@ -1099,10 +1099,10 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Persepolis)"
+        "title": "* Expeditions (Persepolis)"
       },
       {
-        "title": "Marco Polo II (Hormuz)"
+        "title": "* Marco Polo two (Hormuz)"
       }
     ]
   },
@@ -1117,7 +1117,7 @@
         "title": "Assyria"
       },
       {
-        "title": "Marco Polo II (Baghdad)"
+        "title": "* Marco Polo two (Baghdad)"
       },
       {
         "title": "Tigris & Euphrates"
@@ -1132,19 +1132,19 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Irish Gauge"
       },
       {
-        "title": "Karvi"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Norsemen"
+        "title": "* Karvi"
       },
       {
-        "title": "Trekking the World (Cliffs of Mohar)"
+        "title": "* Norsemen"
+      },
+      {
+        "title": "* Trekking the World (Cliffs of Mohar)"
       }
     ]
   },
@@ -1167,22 +1167,10 @@
         "title": "Amalfi"
       },
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Cities (Venice)"
       },
       {
-        "title": "Expeditions (Rome)"
-      },
-      {
-        "title": "Heat"
-      },
-      {
         "title": "Lorenzo (il Magnifico)"
-      },
-      {
-        "title": "Marco Polo (Venice)"
       },
       {
         "title": "Ponte del Diavolo"
@@ -1191,25 +1179,37 @@
         "title": "Get on Board Paris Rome"
       },
       {
-        "title": "Railways of the World (Europe)"
-      },
-      {
-        "title": "RallymanGT (Imola, Misano, Monza, Mugello)"
-      },
-      {
         "title": "Roll to the Top (Matterhorn)"
-      },
-      {
-        "title": "Ticket to Ride Europe"
-      },
-      {
-        "title": "Trekking the World (Colosseum)"
       },
       {
         "title": "Verona Twist"
       },
       {
         "title": "Viticulture"
+      },
+      {
+        "title": "* Boomerang: Europe"
+      },
+      {
+        "title": "* Expeditions (Rome)"
+      },
+      {
+        "title": "* Heat"
+      },
+      {
+        "title": "* Marco Polo (Venice)"
+      },
+      {
+        "title": "* Railways of the World (Europe)"
+      },
+      {
+        "title": "* RallymanGT (Imola, Misano, Monza, Mugello)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
+      },
+      {
+        "title": "* Trekking the World (Colosseum)"
       }
     ]
   },
@@ -1221,10 +1221,10 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo (Port Royal)"
+        "title": "* Maracaibo (Port Royal)"
       },
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -1237,9 +1237,6 @@
     "games": [
       {
         "title": "Arigato"
-      },
-      {
-        "title": "Expeditions (Mount Fuji)"
       },
       {
         "title": "Formula D (GP Blanc)"
@@ -1263,16 +1260,19 @@
         "title": "Railways of the World"
       },
       {
-        "title": "RallymanGT (Autopolis, Fuji, Motegi, Okayama, Sportsland)"
-      },
-      {
-        "title": "Ultimate Railroads"
-      },
-      {
         "title": "White Castle"
       },
       {
         "title": "Yokohama"
+      },
+      {
+        "title": "* Expeditions (Mount Fuji)"
+      },
+      {
+        "title": "* RallymanGT (Autopolis, Fuji, Motegi, Okayama, Sportsland)"
+      },
+      {
+        "title": "* Ultimate Railroads"
       }
     ]
   },
@@ -1284,10 +1284,10 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Petra)"
+        "title": "* Expeditions (Petra)"
       },
       {
-        "title": "Trekking the World (Petra)"
+        "title": "* Trekking the World (Petra)"
       }
     ]
   },
@@ -1351,13 +1351,13 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Railways of the World (Europe)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -1409,7 +1409,7 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       }
     ]
   },
@@ -1421,7 +1421,7 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       }
     ]
   },
@@ -1433,7 +1433,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions"
+        "title": "* Expeditions"
       }
     ]
   },
@@ -1453,7 +1453,7 @@
     "read": true,
     "games": [
       {
-        "title": "RallymanGT (Sepang)"
+        "title": "* RallymanGT (Sepang)"
       }
     ]
   },
@@ -1473,13 +1473,13 @@
     "read": true,
     "games": [
       {
-        "title": "Caravan (Arawan, Jenne, Timbuktu)"
+        "title": "* Caravan (Arawan, Jenne, Timbuktu)"
       },
       {
-        "title": "Expeditions (Timbuktu)"
+        "title": "* Expeditions (Timbuktu)"
       },
       {
-        "title": "Trekking the World (Timbuktu)"
+        "title": "* Trekking the World (Timbuktu)"
       }
     ]
   },
@@ -1491,7 +1491,7 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       }
     ]
   },
@@ -1511,7 +1511,7 @@
     "read": true,
     "games": [
       {
-        "title": "Caravan (Walata)"
+        "title": "* Caravan (Walata)"
       }
     ]
   },
@@ -1534,19 +1534,19 @@
         "title": "Cities (Mexico City)"
       },
       {
-        "title": "Expeditions (Teotihuacan)"
-      },
-      {
         "title": "Railways of the World"
-      },
-      {
-        "title": "RallymanGT"
       },
       {
         "title": "Teotihuacan"
       },
       {
-        "title": "Trekking the World (Chichen Itza, Teotihuacán)"
+        "title": "* Expeditions (Teotihuacan)"
+      },
+      {
+        "title": "* RallymanGT"
+      },
+      {
+        "title": "* Trekking the World (Chichen Itza, Teotihuacán)"
       },
       {
         "title": "Viva Catrina"
@@ -1580,7 +1580,7 @@
         "title": "Formula D"
       },
       {
-        "title": "RallymanGT"
+        "title": "* RallymanGT"
       }
     ]
   },
@@ -1592,10 +1592,10 @@
     "read": true,
     "games": [
       {
-        "title": "Marco Polo (Karakorum)"
+        "title": "* Marco Polo (Karakorum)"
       },
       {
-        "title": "Marco Polo II (Karakorum, Xanadu)"
+        "title": "* Marco Polo two (Karakorum, Xanadu)"
       }
     ]
   },
@@ -1615,16 +1615,16 @@
     "read": true,
     "games": [
       {
-        "title": "Caravan (Marrakesh)"
-      },
-      {
         "title": "Marrakesh"
       },
       {
         "title": "Medina"
       },
       {
-        "title": "Trekking the World (Jemaa el-Fnaa)"
+        "title": "* Caravan (Marrakesh)"
+      },
+      {
+        "title": "* Trekking the World (Jemaa el-Fnaa)"
       }
     ]
   },
@@ -1644,13 +1644,13 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Bagan)"
+        "title": "* Expeditions (Bagan)"
       },
       {
-        "title": "Marco Polo II (Pagan)"
+        "title": "* Marco Polo two (Pagan)"
       },
       {
-        "title": "Trekking the World (Bagan Temples)"
+        "title": "* Trekking the World (Bagan Temples)"
       }
     ]
   },
@@ -1662,7 +1662,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Omatako)"
+        "title": "* Expeditions (Omatako)"
       }
     ]
   },
@@ -1682,7 +1682,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Everest)"
+        "title": "* Expeditions (Everest)"
       },
       {
         "title": "Trek 12 (standard maps)"
@@ -1697,19 +1697,19 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Gift of Tulips"
       },
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "RallymanGT (TT Assen, Zandvoort)"
+        "title": "* Railways of the World (Europe)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* RallymanGT (TT Assen, Zandvoort)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -1721,10 +1721,10 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Fjordland)"
+        "title": "* Expeditions (Fjordland)"
       },
       {
-        "title": "Trekking the World (Milford Sound)"
+        "title": "* Trekking the World (Milford Sound)"
       }
     ]
   },
@@ -1736,7 +1736,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo (Bluefields, Puerto Cabezas)"
+        "title": "* Maracaibo (Bluefields, Puerto Cabezas)"
       }
     ]
   },
@@ -1748,7 +1748,7 @@
     "read": true,
     "games": [
       {
-        "title": "Caravan (Adagez)"
+        "title": "* Caravan (Adagez)"
       }
     ]
   },
@@ -1784,16 +1784,16 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Karvi"
+        "title": "* Karvi"
       },
       {
-        "title": "Norsemen"
+        "title": "* Norsemen"
       },
       {
-        "title": "Trekking the World (Preikestolen)"
+        "title": "* Trekking the World (Preikestolen)"
       }
     ]
   },
@@ -1816,10 +1816,10 @@
         "title": "K2"
       },
       {
-        "title": "Marco Polo (Karachi)"
+        "title": "Nanga Parbat"
       },
       {
-        "title": "Nanga Parbat"
+        "title": "* Marco Polo (Karachi)"
       }
     ]
   },
@@ -1839,7 +1839,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo (Portobelo)"
+        "title": "* Maracaibo (Portobelo)"
       }
     ]
   },
@@ -1851,7 +1851,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions"
+        "title": "* Expeditions"
       }
     ]
   },
@@ -1871,10 +1871,10 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Machu Picchu)"
+        "title": "* Expeditions (Machu Picchu)"
       },
       {
-        "title": "Trekking the World (Machu Picchu)"
+        "title": "* Trekking the World (Machu Picchu)"
       }
     ]
   },
@@ -1894,13 +1894,13 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Railways of the World (Europe)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -1921,19 +1921,19 @@
         "title": "Azul: Summer Pavilion"
       },
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Cities (Lisbon)"
       },
       {
         "title": "Railways of the World"
       },
       {
-        "title": "RallymanGT (Algarve, Estoril, Vila Real)"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* RallymanGT (Algarve, Estoril, Vila Real)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -1953,10 +1953,10 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -1968,28 +1968,28 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (various)"
-      },
-      {
-        "title": "Marco Polo (Moscow)"
-      },
-      {
-        "title": "Railways of the World (Europe)"
-      },
-      {
-        "title": "RallymanGT (Igora Drive, Moscow, St. Petersburg)"
-      },
-      {
         "title": "Russian Railroads"
       },
       {
         "title": "St Petersburg"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Expeditions (various)"
       },
       {
-        "title": "Ultimate Railroads"
+        "title": "* Marco Polo (Moscow)"
+      },
+      {
+        "title": "* Railways of the World (Europe)"
+      },
+      {
+        "title": "* RallymanGT (Igora Drive, Moscow, St. Petersburg)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
+      },
+      {
+        "title": "* Ultimate Railroads"
       }
     ]
   },
@@ -2009,7 +2009,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo"
+        "title": "* Maracaibo"
       }
     ]
   },
@@ -2069,7 +2069,7 @@
     "read": true,
     "games": [
       {
-        "title": "Caravan (Awlil)"
+        "title": "* Caravan (Awlil)"
       }
     ]
   },
@@ -2081,7 +2081,7 @@
     "read": true,
     "games": [
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Railways of the World (Europe)"
       }
     ]
   },
@@ -2121,10 +2121,10 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "RallymanGT (Slovakiaring)"
+        "title": "* RallymanGT (Slovakiaring)"
       }
     ]
   },
@@ -2136,7 +2136,7 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
+        "title": "* Boomerang: Europe"
       }
     ]
   },
@@ -2164,10 +2164,10 @@
     "read": true,
     "games": [
       {
-        "title": "RallymanGT (Kyalama)"
+        "title": "* RallymanGT (Kyalama)"
       },
       {
-        "title": "Trekking the World (Kruger, Table Mountain)"
+        "title": "* Trekking the World (Kruger, Table Mountain)"
       }
     ]
   },
@@ -2179,10 +2179,10 @@
     "read": true,
     "games": [
       {
-        "title": "RallymanGT (Korea)"
+        "title": "* RallymanGT (Korea)"
       },
       {
-        "title": "Ultimate Railroads"
+        "title": "* Ultimate Railroads"
       }
     ]
   },
@@ -2205,22 +2205,22 @@
         "title": "Alhambra"
       },
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Cities (Barcelona)"
       },
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Boomerang: Europe"
       },
       {
-        "title": "RallymanGT (Catalunya, Jarama, Jerez)"
+        "title": "* Railways of the World (Europe)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* RallymanGT (Catalunya, Jarama, Jerez)"
       },
       {
-        "title": "Trekking the World (Alhambra, Sagrada Familia)"
+        "title": "* Ticket to Ride Europe"
+      },
+      {
+        "title": "* Trekking the World (Alhambra, Sagrada Familia)"
       }
     ]
   },
@@ -2232,7 +2232,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Sigiriya)"
+        "title": "* Expeditions (Sigiriya)"
       }
     ]
   },
@@ -2260,19 +2260,19 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Fika"
-      },
-      {
-        "title": "Norsemen"
       },
       {
         "title": "Railways of the World"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Boomerang: Europe"
+      },
+      {
+        "title": "* Norsemen"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -2284,19 +2284,19 @@
     "read": true,
     "games": [
       {
-        "title": "Boomerang: Europe"
-      },
-      {
-        "title": "Railways of the World (Europe)"
-      },
-      {
         "title": "Roll to the Top (Matterhorn)"
       },
       {
         "title": "Ticket to Ride Maps (Switzerland)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Boomerang: Europe"
+      },
+      {
+        "title": "* Railways of the World (Europe)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -2324,7 +2324,7 @@
     "read": true,
     "games": [
       {
-        "title": "Trekking the World (Tanzania)"
+        "title": "* Trekking the World (Tanzania)"
       }
     ]
   },
@@ -2336,7 +2336,7 @@
     "read": true,
     "games": [
       {
-        "title": "RallymanGT (Buriram)"
+        "title": "* RallymanGT (Buriram)"
       },
       {
         "title": "Siam"
@@ -2375,10 +2375,10 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "Tobago"
       },
       {
-        "title": "Tobago"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -2398,13 +2398,13 @@
     "read": true,
     "games": [
       {
-        "title": "Marco Polo (Adana)"
+        "title": "* Marco Polo (Adana)"
       },
       {
-        "title": "Railways of the World (Europe)"
+        "title": "* Railways of the World (Europe)"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -2416,7 +2416,7 @@
     "read": true,
     "games": [
       {
-        "title": "Marco Polo II (Merv)"
+        "title": "* Marco Polo two (Merv)"
       }
     ]
   },
@@ -2448,7 +2448,7 @@
     "read": true,
     "games": [
       {
-        "title": "Ultimate Railroads"
+        "title": "* Ultimate Railroads"
       }
     ]
   },
@@ -2460,7 +2460,7 @@
     "read": true,
     "games": [
       {
-        "title": "RallymanGT (Dubai)"
+        "title": "* RallymanGT (Dubai)"
       }
     ]
   },
@@ -2475,13 +2475,7 @@
         "title": "A Gest of Robin Hood"
       },
       {
-        "title": "Boomerang: Europe"
-      },
-      {
         "title": "Clans of Caledonia"
-      },
-      {
-        "title": "Expeditions (Stonehenge)"
       },
       {
         "title": "Forest Shuffle Dartmoor"
@@ -2493,12 +2487,6 @@
         "title": "Hadrian's Wall"
       },
       {
-        "title": "Heat"
-      },
-      {
-        "title": "Karvi"
-      },
-      {
         "title": "Molly House"
       },
       {
@@ -2508,16 +2496,10 @@
         "title": "Next Station: London"
       },
       {
-        "title": "Norsemen"
-      },
-      {
         "title": "Obsession"
       },
       {
         "title": "Railways of the World"
-      },
-      {
-        "title": "RallymanGT (Brands Hatch, Donington Park, Knockhill, Oulton Park, Silverstone, Snetterton)"
       },
       {
         "title": "Roll to the Top (Major Oak)"
@@ -2526,7 +2508,25 @@
         "title": "Schotten Totten"
       },
       {
-        "title": "Ticket to Ride Europe"
+        "title": "* Boomerang: Europe"
+      },
+      {
+        "title": "* Expeditions (Stonehenge)"
+      },
+      {
+        "title": "* Heat"
+      },
+      {
+        "title": "* Karvi"
+      },
+      {
+        "title": "* Norsemen"
+      },
+      {
+        "title": "* RallymanGT (Brands Hatch, Donington Park, Knockhill, Oulton Park, Silverstone, Snetterton)"
+      },
+      {
+        "title": "* Ticket to Ride Europe"
       }
     ]
   },
@@ -2547,9 +2547,6 @@
         "title": "Cities (New York)"
       },
       {
-        "title": "Expeditions (various)"
-      },
-      {
         "title": "Formula D (Rock Island, Flaming Man)"
       },
       {
@@ -2563,9 +2560,6 @@
       },
       {
         "title": "Great Western Trail: El Paso"
-      },
-      {
-        "title": "Heat"
       },
       {
         "title": "Lewis & Clark"
@@ -2589,9 +2583,6 @@
         "title": "Railways of the World"
       },
       {
-        "title": "Rallyman GT (various)"
-      },
-      {
         "title": "Roll to the Top (Half Dome, Yosemite)"
       },
       {
@@ -2607,10 +2598,19 @@
         "title": "Ticket to Ride"
       },
       {
-        "title": "Trekking the World (various)"
+        "title": "Welcome to Las Vegas"
       },
       {
-        "title": "Welcome to Las Vegas"
+        "title": "* Expeditions (various)"
+      },
+      {
+        "title": "* Heat"
+      },
+      {
+        "title": "* Rallyman GT (various)"
+      },
+      {
+        "title": "* Trekking the World (various)"
       }
     ]
   },
@@ -2633,10 +2633,10 @@
         "title": "Khiva"
       },
       {
-        "title": "Marco Polo (Samarkand)"
+        "title": "Samarkand"
       },
       {
-        "title": "Samarkand"
+        "title": "* Marco Polo (Samarkand)"
       }
     ]
   },
@@ -2656,13 +2656,13 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Angel Falls)"
+        "title": "* Expeditions (Angel Falls)"
       },
       {
-        "title": "Maracaibo (Caracas, Cumana, Maracaibo)"
+        "title": "* Maracaibo (Caracas, Cumana, Maracaibo)"
       },
       {
-        "title": "Trekking the World (Angel Falls)"
+        "title": "* Trekking the World (Angel Falls)"
       }
     ]
   },
@@ -2680,7 +2680,7 @@
         "title": "Hoi Pho"
       },
       {
-        "title": "Trekking the World (Ha Long Bay)"
+        "title": "* Trekking the World (Ha Long Bay)"
       }
     ]
   },
@@ -2692,7 +2692,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions (Sanaa)"
+        "title": "* Expeditions (Sanaa)"
       }
     ]
   },
@@ -2707,10 +2707,10 @@
         "title": "Livingstone"
       },
       {
-        "title": "Expeditions (Victoria Falls)"
+        "title": "* Expeditions (Victoria Falls)"
       },
       {
-        "title": "Trekking the World (Victoria Falls)"
+        "title": "* Trekking the World (Victoria Falls)"
       }
     ]
   },
@@ -2725,10 +2725,10 @@
         "title": "Livingstone"
       },
       {
-        "title": "Expeditions (Victoria Falls)"
+        "title": "* Expeditions (Victoria Falls)"
       },
       {
-        "title": "Trekking the World (Victoria Falls)"
+        "title": "* Trekking the World (Victoria Falls)"
       }
     ]
   },
@@ -2740,7 +2740,7 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -2752,7 +2752,7 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -2764,7 +2764,7 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -2776,7 +2776,7 @@
     "read": true,
     "games": [
       {
-        "title": "Karvi (Tórshavn)"
+        "title": "* Karvi (Tórshavn)"
       }
     ]
   },
@@ -2788,13 +2788,13 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions"
-      },
-      {
-        "title": "Norsemen"
-      },
-      {
         "title": "Northwest Passage"
+      },
+      {
+        "title": "* Expeditions"
+      },
+      {
+        "title": "* Norsemen"
       }
     ]
   },
@@ -2806,19 +2806,19 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
   {
-    "name": "Hawaii",
+    "name": "Hawatwo",
     "continent": "North America",
     "type": "territory",
-    "code": "images/hawaii.png",
+    "code": "images/hawatwo.png",
     "read": true,
     "games": [
       {
-        "title": "Hawaii"
+        "title": "Hawatwo"
       }
     ]
   },
@@ -2830,7 +2830,7 @@
     "read": true,
     "games": [
       {
-        "title": "RallymanGT"
+        "title": "* RallymanGT"
       }
     ]
   },
@@ -2857,7 +2857,7 @@
     "read": true,
     "games": [
       {
-        "title": "Maracaibo"
+        "title": "* Maracaibo"
       }
     ]
   },
@@ -2869,7 +2869,7 @@
     "read": true,
     "games": [
       {
-        "title": "Pirates of Maracaibo"
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -2881,7 +2881,7 @@
     "read": true,
     "games": [
       {
-        "title": "Norsemen"
+        "title": "* Norsemen"
       }
     ]
   },
@@ -2893,7 +2893,7 @@
     "read": true,
     "games": [
       {
-        "title": "Karvi (Pierowall)"
+        "title": "* Karvi (Pierowall)"
       }
     ]
   },
@@ -2905,16 +2905,16 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions"
-      },
-      {
-        "title": "Maracaibo"
-      },
-      {
-        "title": "Pirates of Maracaibo"
-      },
-      {
         "title": "Puerto Rico"
+      },
+      {
+        "title": "* Expeditions"
+      },
+      {
+        "title": "* Maracaibo"
+      },
+      {
+        "title": "* Pirates of Maracaibo"
       }
     ]
   },
@@ -2926,7 +2926,7 @@
     "read": true,
     "games": [
       {
-        "title": "Karvi (Jarlshof, Underhoull)"
+        "title": "* Karvi (Jarlshof, Underhoull)"
       }
     ]
   },
@@ -2938,7 +2938,7 @@
     "read": true,
     "games": [
       {
-        "title": "Norsemen"
+        "title": "* Norsemen"
       }
     ]
   },
@@ -2950,7 +2950,7 @@
     "read": true,
     "games": [
       {
-        "title": "Expeditions"
+        "title": "* Expeditions"
       }
     ]
   }
