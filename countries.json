@@ -2919,14 +2919,14 @@
     ]
   },
   {
-    "name": "Hawatwo",
+    "name": "Hawaii",
     "continent": "North America",
     "type": "territory",
     "code": "images/hawaii.png",
     "read": true,
     "games": [
       {
-        "title": "Hawatwo"
+        "title": "Hawaii"
       }
     ]
   },
