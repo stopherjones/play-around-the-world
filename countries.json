@@ -28,6 +28,9 @@
     "games": [
       {
         "title": "* Expeditions (Timgad)"
+      },
+      {
+        "title": "* Pandemic (Algiers)"
       }
     ]
   },
@@ -68,6 +71,9 @@
     "games": [
       {
         "title": "Cities (Buenos Aires)"
+      },
+      {
+        "title": "* Pandemic (Buenos Aires)"
       }
     ]
   },
@@ -100,6 +106,9 @@
       },
       {
         "title": "* Expeditions (various)"
+      },
+      {
+        "title": "* Pandemic (Sydney)"
       },
       {
         "title": "* RallymanGT (Adelaide, Albert Park, Mount Panorama)"
@@ -299,6 +308,9 @@
         "title": "* Expeditions (various)"
       },
       {
+        "title": "* Pandemic (Sao Paolo)"
+      },
+      {
         "title": "* RallymanGT (Interlagos)"
       }
     ]
@@ -403,6 +415,9 @@
         "title": "* Expeditions (various)"
       },
       {
+        "title": "* Pandemic (Montreal)"
+      },
+      {
         "title": "* RallymanGT (Montreal, Mosport Park)"
       },
       {
@@ -440,6 +455,9 @@
         "title": "* Expeditions (Atacama,Tierra del Fuego)"
       },
       {
+        "title": "* Pandemic (Santiago)"
+      },
+      {
         "title": "* Trekking the World (Torres del Paine)"
       }
     ]
@@ -467,6 +485,9 @@
         "title": "* Marco Polo two (various)"
       },
       {
+        "title": "* Pandemic (Beijing, Shanghai)"
+      },
+      {
         "title": "* RallymanGT (Shanghai)"
       },
       {
@@ -483,6 +504,9 @@
     "games": [
       {
         "title": "* Maracaibo (Santa Marta, Cartagena)"
+      },
+      {
+        "title": "* Pandemic (Bogota)"
       }
     ]
   },
@@ -583,6 +607,9 @@
     "games": [
       {
         "title": "* Expeditions (Virunga)"
+      },
+      {
+        "title": "* Pandemic (Kinshasa)"
       }
     ]
   },
@@ -689,6 +716,9 @@
       },
       {
         "title": "* Marco Polo (Alexandria)"
+      },
+      {
+        "title": "* Pandemic (Cairo)"
       },
       {
         "title": "* Trekking the World (Pyramids at Giza)"
@@ -838,6 +868,9 @@
         "title": "* Newton"
       },
       {
+        "title": "* Pandemic (Paris)"
+      },
+      {
         "title": "* Railways of the World (Europe)"
       },
       {
@@ -890,6 +923,9 @@
       },
       {
         "title": "* Boomerang: Europe"
+      },
+      {
+        "title": "* Pandemic (Essen)"
       },
       {
         "title": "* RallymanGT (Hockenheimring, Lausitzring, Norisring, Nurburgring, Oschersleben, Sachsenring)"
@@ -1087,22 +1123,25 @@
         "title": "Biomes of Nilgiris"
       },
       {
-        "title": "* Expeditions (Taj Mahal)"
-      },
-      {
         "title": "Go Goa"
       },
       {
         "title": "Jaipur"
       },
       {
-        "title": "* Marco Polo two (Jaipur)"
-      },
-      {
         "title": "Movers and Shakers"
       },
       {
         "title": "Ticket to Ride Maps (India)"
+      },
+      {
+        "title": "* Expeditions (Taj Mahal)"
+      },
+      {
+        "title": "* Marco Polo two (Jaipur)"
+      },
+      {
+        "title": "* Pandemic (various)"
       }
     ]
   },
@@ -1114,13 +1153,16 @@
     "read": true,
     "games": [
       {
-        "title": "* Expeditions (Borobudur, Sulawesi)"
-      },
-      {
         "title": "Hutan"
       },
       {
+        "title": "* Expeditions (Borobudur, Sulawesi)"
+      },
+      {
         "title": "* Marco Polo (Sumatra)"
+      },
+      {
+        "title": "* Pandemic (Jakarta)"
       },
       {
         "title": "* Trekking the World (Borobudur)"
@@ -1139,6 +1181,9 @@
       },
       {
         "title": "* Marco Polo two (Hormuz)"
+      },
+      {
+        "title": "* Pandemic (Tehran)"
       }
     ]
   },
@@ -1153,10 +1198,13 @@
         "title": "Assyria"
       },
       {
+        "title": "Tigris & Euphrates"
+      },
+      {
         "title": "* Marco Polo two (Baghdad)"
       },
       {
-        "title": "Tigris & Euphrates"
+        "title": "* Pandemic (Baghdad)"
       }
     ]
   },
@@ -1327,6 +1375,9 @@
       },
       {
         "title": "* Expeditions (Mount Fuji)"
+      },
+      {
+        "title": "* Pandemic (Tokyo, Osaka)"
       },
       {
         "title": "* RallymanGT (Autopolis, Fuji, Motegi, Okayama, Sportsland)"
@@ -1604,6 +1655,9 @@
       },
       {
         "title": "* Expeditions (Teotihuacan)"
+      },
+      {
+        "title": "* Pandemic (Mexico City)"
       },
       {
         "title": "* RallymanGT"
@@ -1892,6 +1946,9 @@
       },
       {
         "title": "* Marco Polo (Karachi)"
+      },
+      {
+        "title": "* Pandemic (Karachi)"
       }
     ]
   },
@@ -1939,11 +1996,14 @@
     "name": "Peru",
     "continent": "South America",
     "type": "country",
-    "code": "py",
+    "code": "pe",
     "read": true,
     "games": [
       {
         "title": "* Expeditions (Machu Picchu)"
+      },
+      {
+        "title": "* Pandemic (Lima)"
       },
       {
         "title": "* Trekking the World (Machu Picchu)"
@@ -2058,6 +2118,9 @@
         "title": "* Marco Polo (Moscow)"
       },
       {
+        "title": "* Pandemic (Moscow, St. Petersburg)"
+      },
+      {
         "title": "* Railways of the World (Europe)"
       },
       {
@@ -2136,8 +2199,12 @@
     "continent": "Asia",
     "type": "country",
     "code": "sa",
-    "read": false,
-    "games": []
+    "read": true,
+    "games": [
+      {
+        "title": "* Pandemic (Riyadh)"
+      }
+    ]
   },
   {
     "name": "Senegal",
@@ -2245,6 +2312,9 @@
     "read": true,
     "games": [
       {
+        "title": "* Pandemic (Johannesburg)"
+      },
+      {
         "title": "* RallymanGT (Kyalama)"
       },
       {
@@ -2259,6 +2329,9 @@
     "code": "kr",
     "read": true,
     "games": [
+      {
+        "title": "* Pandemic (Seoul)"
+      },
       {
         "title": "* RallymanGT (Korea)"
       },
@@ -2298,6 +2371,9 @@
         "title": "* Newton"
       },
       {
+        "title": "* Pandemic (Madrid)"
+      },
+      {
         "title": "* Railways of the World (Europe)"
       },
       {
@@ -2328,8 +2404,12 @@
     "continent": "Africa",
     "type": "country",
     "code": "sd",
-    "read": false,
-    "games": []
+    "read": true,
+    "games": [
+      {
+        "title": "* Pandemic (Khartoum)"
+      }
+    ]
   },
   {
     "name": "Suriname",
@@ -2426,10 +2506,13 @@
     "read": true,
     "games": [
       {
+        "title": "Siam"
+      },
+      {
         "title": "* RallymanGT (Buriram)"
       },
       {
-        "title": "Siam"
+        "title": "* Pandemic (Bangkok)"
       }
     ]
   },
@@ -2492,6 +2575,9 @@
       },
       {
         "title": "* Newton"
+      },
+      {
+        "title": "* Pandemic (Istanbul)"
       },
       {
         "title": "* Railways of the World (Europe)"
@@ -2715,6 +2801,9 @@
         "title": "* Heat"
       },
       {
+        "title": "* Pandemic (various)"
+      },
+      {
         "title": "* Rallyman GT (various)"
       },
       {
@@ -2775,7 +2864,7 @@
     ]
   },
   {
-    "name": "Viet Nam",
+    "name": "Vietnam",
     "continent": "Asia",
     "type": "country",
     "code": "vn",
@@ -2786,6 +2875,9 @@
       },
       {
         "title": "Hoi Pho"
+      },
+      {
+        "title": "* Pandemic (Ho Chi Minh)"
       },
       {
         "title": "* Trekking the World (Ha Long Bay)"
@@ -2931,6 +3023,18 @@
     ]
   },
   {
+    "name": "Hong Kong",
+    "continent": "Asia",
+    "type": "territory",
+    "code": "hk",
+    "read": true,
+    "games": [
+      {
+        "title": "* Pandemic"
+      }
+    ]
+  },
+  {
     "name": "Macau",
     "continent": "Asia",
     "type": "territory",
@@ -3071,6 +3175,18 @@
     "games": [
       {
         "title": "* Expeditions"
+      }
+    ]
+  },
+  {
+    "name": "Taiwan",
+    "continent": "Asia",
+    "type": "territory",
+    "code": "tw",
+    "read": true,
+    "games": [
+      {
+        "title": "* Pandemic (Taipei)"
       }
     ]
   }
