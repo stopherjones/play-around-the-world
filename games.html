@@ -11,7 +11,7 @@
     <h1 class="main-title">List of games</h1>
 
     <div class="stat-display">
-        <span id="statText">0 games read in 0 of 0 countries</span>
+        <span id="statText">0 games in 0 of 0 countries</span>
     </div>
 
     <p class="subtitle">A complete list of games organized by country</p>
@@ -64,7 +64,7 @@
             
             const statText = document.getElementById("statText");
             if (statText) {
-                statText.textContent = `${totalgames} games read in ${readCountries} of ${totalCountries} countries`;
+                statText.textContent = `${totalgames} games in ${readCountries} of ${totalCountries} countries`;
             }
         }
 
