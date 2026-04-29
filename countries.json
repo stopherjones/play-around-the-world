@@ -470,6 +470,9 @@
     "read": true,
     "games": [
       {
+        "title": "China Gold"
+      },
+      {
         "title": "In The Year of The Dragon"
       },
       {
@@ -1133,6 +1136,9 @@
       },
       {
         "title": "Go Goa"
+      },
+      {
+        "title": "Goa"
       },
       {
         "title": "Jaipur"
