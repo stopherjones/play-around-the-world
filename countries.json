@@ -114,6 +114,9 @@
         "title": "* RallymanGT (Adelaide, Albert Park, Mount Panorama)"
       },
       {
+        "title": "* Red Notice (Perth, Port Douglas)"
+      },
+      {
         "title": "* Trekking the World (Great Barrier Reef, Uluru, Sydney Opera House)"
       }
     ]
@@ -311,6 +314,9 @@
         "title": "* Pandemic (Sao Paolo)"
       },
       {
+        "title": "* Red Notice (Rio de Janeiro)"
+      },
+      {
         "title": "* RallymanGT (Interlagos)"
       }
     ]
@@ -421,6 +427,9 @@
         "title": "* RallymanGT (Montreal, Mosport Park)"
       },
       {
+        "title": "* Red Notice (Vancouver)"
+      },
+      {
         "title": "* Ticket to Ride (USA)"
       },
       {
@@ -456,6 +465,9 @@
       },
       {
         "title": "* Pandemic (Santiago)"
+      },
+      {
+        "title": "* Red Notice (Santiago)"
       },
       {
         "title": "* Trekking the World (Torres del Paine)"
@@ -780,8 +792,10 @@
     "continent": "Africa",
     "type": "country",
     "code": "et",
-    "read": false,
-    "games": []
+    "read": true,
+    "games": [{
+        "title": "* Red Notice (Addis Ababa)"
+      }]
   },
   {
     "name": "Fiji",
@@ -803,6 +817,9 @@
       },
       {
         "title": "* RallymanGT (Kymiring)"
+      },
+      {
+        "title": "* Red Notice (Helsinki)"
       },
       {
         "title": "* Ticket to Ride (Nordic Countries)"
@@ -1121,6 +1138,9 @@
       },
       {
         "title": "* Norsemen"
+      },
+      {
+        "title": "* Red Notice (Reykavik)"
       }
     ]
   },
@@ -1157,6 +1177,9 @@
       },
       {
         "title": "* Pandemic (various)"
+      },
+      {
+        "title": "* Red Notice (Kolkata)"
       }
     ]
   },
@@ -1317,6 +1340,9 @@
         "title": "* RallymanGT (Imola, Misano, Monza, Mugello)"
       },
       {
+        "title": "* Red Notice (Rome)"
+      },
+      {
         "title": "* Ticket to Ride Europe"
       },
       {
@@ -1402,6 +1428,9 @@
       },
       {
         "title": "* RallymanGT (Autopolis, Fuji, Motegi, Okayama, Sportsland)"
+      },
+      {
+        "title": "* Red Notice (Tokyo)"
       },
       {
         "title": "* Ultimate Railroads"
@@ -1734,6 +1763,9 @@
       },
       {
         "title": "* Marco Polo two (Karakorum, Xanadu)"
+      },
+      {
+        "title": "* Red Notice (Ulaanbaatar)"
       }
     ]
   },
@@ -1872,6 +1904,9 @@
     "games": [
       {
         "title": "* Expeditions (Fjordland)"
+      },
+      {
+        "title": "* Red Notice (Auckland)"
       },
       {
         "title": "* Trekking the World (Milford Sound)"
@@ -2244,6 +2279,9 @@
     "games": [
       {
         "title": "* Caravan (Awlil)"
+      },
+      {
+        "title": "* Red Notice (Dakar)"
       }
     ]
   },
@@ -2345,6 +2383,9 @@
       },
       {
         "title": "* RallymanGT (Kyalama)"
+      },
+      {
+        "title": "* Red Notice (Cape Town)"
       },
       {
         "title": "* Trekking the World (Kruger, Table Mountain)"
@@ -2845,6 +2886,9 @@
         "title": "* Rallyman GT (various)"
       },
       {
+        "title": "* Red Notice (Los Angeles, Washington)"
+      },
+      {
         "title": "* Trekking the World (various)"
       }
     ]
@@ -2895,6 +2939,9 @@
       },
       {
         "title": "* Maracaibo (Caracas, Cumana, Maracaibo)"
+      },
+      {
+        "title": "* Red Notice (Caracas)"
       },
       {
         "title": "* Trekking the World (Angel Falls)"
